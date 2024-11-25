@@ -1,274 +1,131 @@
 ---
 title: "Pre Analysis Plan for Spatial Explicit Economic Values of Natural Capital in Europe"
-author: "Julian Sagebiel, Nino Cavallaro, Martin Quaas et al."
+author: "Julian Sagebiel, Nino Cavallaro, Maximilian Föhl, Martin Quaas, Aletta Bonn, Maria Schnabel, Marie Meemken, Kevin Rozario, Deutsches Zentrum für integrative Biodiversitätsforschung (iDiv) Halle-Jena-Leipzig; Stefan Baumgärtner, Albert-Ludwigs-Universität Freiburg (ALU); Moritz Drupp, Björn Bos, Pier Basaglia, Simon Disque, Jonas Grunau, Universität Hamburg (UHH); Britta Tietjen, Fanny Langerwisch, Freie Universität Berlin (FU); Harry Gölz, Beyhan Ekinci, Veronika Liebelt, Bundesamt für Naturschutz (BfN); Björn Bünger, Astrid Matthey, Jan Philipp Schägner, Umweltbundesamt (UBA); Burkhard Schweppe-Kraft, Katarzyna Skrzypek, Katarzyna Zagórska (University of Warsaw)"
+abstract: "Abstract: Despite the urgent need to preserve natural capital, little is known about the direct benefits people receive from it. To achieve the sustainable development goals, especially Goal 15: Life on Land, reliable benefit estimates are required to incorporate the value of natural capital in national capital accounting, cost-benefit analyses, project appraisal, and in international policy agreements. What is needed is a comprehensive, transferable, and spatially-consistent benefit estimation. However, the multiple, interlinked services produced from natural capital make it hard to estimate its benefits, explaining a lack of robust benefit estimates. Using a novel valuation approach, the study discloses the benefits of natural capital and biodiversity, spatially differentiated all over Europe. The study employs a spatial-explicit choice experiment approach, which estimates benefits people receive from natural capital conditional on the current status in their places of residence. The results are easily transferable to other regions and contexts and allow trading off the benefits and costs of restoring natural capital and biodiversity. It can be seen in which regions the loss of natural capital is critical and where measures are most effective. Aggregated values indicate the overall willingness to pay of European citizens to restore natural capital, for example by adopting sustainable agriculture or creating natural protected areas. Stakeholders who are interested in the value of natural capital and biodiversity can easily use and adapt the estimates for their purposes. The results enrich the discussion on the loss of natural capital and biodiversity and can significantly contribute to broader policy discussions in the context of the interlinked climate and biodiversity crises.
 format: pdf
+editor: 
+  markdown: 
+    wrap: sentence
 ---
-
-#  Abstract
-
-### 1. Summary of the study:
-Despite the urgent need to preserve natural capital, little is known about the direct benefits people receive from it. To achieve the sustainable development goals, especially Goal 15: Life on Land, reliable benefit estimates are required to incorporate the value of natural capital in national capital accounting, cost-benefit analyses, project appraisal, and in international policy agreements.  What is needed is a comprehensive, transferable, and spatially-consistent benefit estimation.   However, the multiple, interlinked services produced from natural capital make it hard to estimate its benefits, explaining a lack of robust benefit estimates. Using a novel valuation approach, the study discloses the benefits of natural capital and biodiversity, spatially differentiated all over Europe.  The study employs a spatial-explicit choice experiment approach, which estimates benefits people receive from natural capital conditional on the current status in their places of residence.  The results are easily transferable to other regions and contexts and allow trading off the benefits and costs of restoring natural capital and biodiversity.  It can be seen in which regions the loss of natural capital is critical and where measures are most effective.  Aggregated values indicate the overall willingness to pay of European citizens to restore natural capital, for example by adopting sustainable agriculture or creating natural protected areas.  Stakeholders who are interested in the value of natural capital and biodiversity can easily use and adapt the estimates for their purposes.  The results enrich the discussion on the loss of natural capital and biodiversity and can significantly contribute to broader policy discussions in the context of the interlinked climate and biodiversity crises.
-
 
 # Part A: General Information
 
 ## Background
 
-Economic values of natural capital are useful for policy makers at different scales and for different purposes. Its importance is manifested in several international efforts guiding how to estimate such values[^3], and how to use thus values in various contexts[^4]. Uses of economic values of natural capital in policy making include welfare analyses, assessment of damages, cost-benefit analyses, stakeholder engagements and natural capital accounting.
+Economic values of natural capital are useful for policy makers at different scales and for different purposes. Its importance is manifested in several international efforts guiding how to estimate such values[^1], and how to use thus values in various contexts[^2]. Uses of economic values of natural capital in policy making include welfare analyses, assessment of damages, cost-benefit analyses, stakeholder engagements and natural capital accounting. While there is a large theoretical and empirical literature on valuation of natural capital, we still lack a holistic and consistent set of values of natural capital. This study aims to provide values of natural capital, which benefit the overall aim of a holistic valuation. Specifically, we derive spatially-explicit high resolution economic values of natural capital. Using different valuation methods – choice experiments, life satisfaction, travel cost – we conduct a survey with spatially individual valuation tasks to estimate functions for values of protected natural areas and high nature value farmland. Regarding the choice experiment, we have developed a new method to incorporate the current endowment of natural capital in the valuation task. Survey participants are confronted with maps showing their current endowment and then make a choice between different policy scenarios. The current endowment is calculated using European-wide GIS data on protected natural areas and high nature value farmland.
 
-[^3]: see for example The Economics of Ecosystem Services and Biodiversity - TEEB (https://teebweb.org/) or The International Panel on Biodiversity and Ecosystem Services - IPBES (www.ipbes.net/the-values-assessment)
+[^1]: see for example The Economics of Ecosystem Services and Biodiversity - TEEB (https://teebweb.org/) or The International Panel on Biodiversity and Ecosystem Services - IPBES (www.ipbes.net/the-values-assessment)
 
-[^4]: see for example The System of Environmental-Economic Accounting SEEA (seea.un.org)
+[^2]: see for example The System of Environmental-Economic Accounting SEEA (seea.un.org)
 
-While there is a large theoretical and empirical literature on valuation of natural capital, we still lack a holistic and consistent set of values of natural capital. This study aims to provide values of natural capital, which benefit the overall aim of a holistic valuation. Specifically, we derive spatially-explicit high resolution economic values of natural capital. Using the choice experiment method, we conduct a European wide survey with spatially individual valuation tasks to estimate functions for values of protected natural areas and high nature value farmland. Our study is unique in three aspects. First, we have developed a new method to incorporate the current endowment of natural capital in the valuation task. Survey participants are confronted with maps showing their current endowment and then make a choice between different policy scenarios. The current endowment is calculated using European-wide GIS data on protected natural areas and high nature value farmland. Second, we cover several countries all over Europe using one consistent methodology and the same spatial data sources. Our approach allows us to derive high resolution maps with values all over Europe. Third, the survey is conducted with representative samples of populations in European countries, giving a consistent picture of values in different countries.
+Our approach allows us to derive high resolution maps with values all over Europe. In our study, we present a novel approach in which high-resolution data from geographic information systems (GIS) are used directly in a discrete choice experiment. We show respondents their status quo endowments with protected areas and high nature value farmland as well as proposed extensions to these areas on interactive maps. Using an R algorithm and land cover data we ensure that all proposed changes are feasible. With this unique technical feature of the discrete choice experiment, we enable the respondents to incorporate their endowment with natural capital around their place of residence in the decision process and ensure that all proposed landscape changes are feasible, visible, and relevant in distance to the respondents. Further, we vary the accessibility of newly created protected areas, the visibility of the new high nature value farmland areas, and the distances to both of these new areas to partly disentangle the use and non-use values of these forms of natural capital. Additionally, by incorporating socio-demographic and spatially explicit variables, we seek to identify how different populations and regions perceive substitutes and complements to natural capital. The sample size of N = 15, 000 allows us to conduct an in-depth analysis of the major drivers in heterogeneity for preferences of natural capital.
 
 ## Key research questions
 
-Our study tackles contributes to the research on valuing natural capital, leading to two sets of different research questions. First, we want to investigate the spatially-differentiated value of natural capital in Europe leading to the following set of research questions:
+Our study contributes to the research on valuing natural capital, leading to two sets of different research questions. First, we want to investigate the spatially-differentiated value of natural capital in Europe leading to the following set of research questions: What is the value of protected natural areas and high nature value farmland, and how does it differ across regions? What are determinants (socio-demographics, landscape features, substitutes and complements of natural capital) of these values? To what extent does the distance of natural capital impact its marginal value and welfare estimates? To what extent do spatial endowments of protected areas and high nature value farmland affect its marginal value and welfare estimates? What differences emerge between use-related values and non-use-related values?
 
--   what is the value of protected natural areas and high nature value farmland and how does it differ across regions?
+1see for example The Economics of Ecosystem Services and Biodiversity - TEEB (https://teebweb.org/) or The International Panel on Biodiversity and Ecosystem Services - IPBES (www.ipbes.net/the-values-assessment) 2see for example The System of Environmental-Economic Accounting SEEA (seea.un.org)
 
--   what are determinants (socio-demographics, landscape features, substitutes and complements of natural capital) of these values?
+Second, we want to investigate several methodical questions that are inherit to the current practice of choice experiments:
 
--   to what extent does the distance of natural capital to human settlements impact welfare estimates?
+-   What are the implications of the usage of different specifications of the utility function (e.g. linear, quadratic, Box-Cox) on welfare estimates?
 
-Second, we want to investigate several methodical issues that are inherit to the current practice of choice experiments:
+-   Does the scope (i.e. regional extent) of a measure to protect natural capital impact the value (scope and embedding effects)?
 
--   to what extent do the results depend on the monetary vehicle (e.g. a tax increase) which is used as a means to finance protection of natural capital?
+-   Are elicited values constant over different methods (choice experiment, travel cost method, life satisfaction)?
 
--   does the degree of uncertainty of the future development of natural capital affect its value?
+-   How do the distributional consequences of the payment vehicle impact choices and values?
 
--   does the scope (i.e. regional extent) of a measure to protect natural capital impact the value (scope and embedding effects)?
+-   How do different time horizons of the payment period impact choices and values?
 
--   are elicited values constant over different methods (choice experiment, travel cost method, life satisfaction)?
+-   In the context of recreation demand (travel cost) approach, how does survey formulation influence the respondent’s answers, and can targeted survey tools (e.g., interactive maps, timeline graph, calculation hints, feedback on reported numbers) improve recall and affect the obtained welfare estimates?
 
-### 2.    What are your hypotheses?
+### 2. What are your hypotheses?
 
+-   **Hypothesis 1:** People are willing to give up some of their income to improve  natural capital in the form of protected areas and high nature value farmlands.
 
+\
 
-# Part B: Experimental Design - The Survey
+-   **Hypothesis 2:** The value of natural capital is significantly influenced by socio-
 
-## Data and Experimental Setup
+demographic characteristics and spatially explicit factors, leading to variations in values across different groups and regions.
 
-### 3.  	What is the format of the survey instrument? [eg. online, ftf, etc.]
-The survey is carried out online by the survey company SurveyEngine. The collaboration with SurveyEngine covered all development stages of the survey, including all pilot studies. 
+\
 
-### 4.  	Motivate and describe your sampling approach (Probabilistic sample, Convenience sample, stratified, clustered, quotas applied):
-The sample is a random sample of the adult population in Germany with representative quotas for age and gender, and additional soft quotas for income and region. The main quotas are replicated within the split
-samples.
-We will start the data collection in Germany with a sample size of $N = 15,000$ and plan to apply the study in different countries in Europe in the future. The sample sizes for the other countries are not yet determined as our European partners have not yet finalized their funding. By submission of the registered report, all samples will be determined.
+-    **Hypothesis 3:** The marginal value of natural capital decreases as endowment in
 
-### 5.   	How did you incentivize your sample?
-(Ask Kabir - Angebotsschreiben berechnet 4.50/5.15 pro respondent)
+creases, suggesting diminishing returns.
 
-### 6.   	How did you determine the sample size (e.g. power analysis)?
-(Ask Julian)
+\
 
-### 8. Anything else you want to mention regarding survey information:
-(Ask Julian)
+-   **Hypothesis 4:** Use related values of natural capital are higher than non-use related values.
 
+\
+\
 
-We want to make make sure that our results can be safely used by others -- scientists to conduct further analyses, and policy makers to use the results in decision making. We make the whole research process transparent and reproducible and will share all code and data that we have used in the study.
+Methodological hypotheses: 
 
-## 25.   Do you derive any welfare measures and how?
-The core of the valuation study is a discrete choice experiment. A choice experiment is a commonly used, yet highly contested, method in environmental economic valuation. A large literature discusses its validity and provides best practices and conditions for valid preference elicitation and welfare measurement. One purpose of this pre-analysis plan is that we want to make sure that we have accounted for all necessary conditions and already discuss potential challenges regarding validity before data collection. The choice experiment will be complemented with two other economic valuations approaches -- travel cost method and life satisfaction. These approaches are based on the same theoretical framework as choice experiments and should - in theory - provide similar results. A comparison of the results of the three methods allows us to investigate the validity of our value estimates. We use the registered report to discuss how we will deal with a situation where results from the three methods diverge.
+	Related to Choice Experiment
 
+-   Hypothesis M1a: The scope of the changes in natural capital is influencing the values of natural capital.
 
-## Development of questionnaire
+\
 
-The questionnaire was developed together with an inter- and transdisciplinary team of experts on biodiversity from ecology, social sciences and economics. Two federal German institutes were actively involved in the development of the German version of the questionnaire: The German Federal Agency for Nature Conservation (BfN) and the German Environmental Protection Agency (UBA).
+-   **Hypothesis M2a:** Derived natural capital values depend more on the relative than the absolute attribute levels, when comparing two different vectors of attribute levels. 
 
-### 7.   	Did you conduct any pre-studies to develop the DCE and questionnaire? Please describe the procedure. 
-The questionnaire was tested in an iterative process across different stages of development. The development of the choice experiment was accompanied by ten focus groups with 60 participants and adapted according to the outcomes of the focus groups. In addition to the focus groups, we conducted two rounds of pilot studies with a near-final version of the survey were conducted with a total of 400 participants. The structure and results of the focus groups are described in more detail in subsection (Ax), while the pilot studies are described in more detail in subsection (Ay).
+\
 
-### Focus Groups
-(Ask Kabir about Incentivization)
-We conducted a total of 10 focus groups, with participants divided into two groups according to their educational background and area of residence. Participants were divided into two groups according to whether they had a university degree or not. We also distinguished between those living in urban and rural areas. Each group consisted of between four and nine people and each session lasted 90 minutes. In order to facilitate the adaptation of the questionnaire to the specific content of each group, the focus groups were conducted in three separate waves, with each wave targeting a different focus area. In the first and second waves, we held four groups each, in order to have one group for each intersection of living area and educational background.
+-   **Hypothesis M2:** The distributional consequences of the payment vehicle have a significant impact on the elicited values of natural capital. 
 
--   The first wave was based on testing the general presentation of content and concepts. The participants discussed the voice of tone, the illustrations, the policy scenario, and the map feature. The payment vehicle and the hypothetical political process presented the main discussion points.
+\
 
--   In the second wave, the reduced introductory information and the updated policy scenario were evaluated in terms of their adequacy and accessibility. The discussions focused primarily on the map feature and the choice cards, providing insights into how participants approach and address the elements of the choice experiment.
+-   **Hypothesis M3:** If the duration of the payment period increases,increases respondents are less likely to vote in favor of increases in natural capital.
 
--   In the third wave, we conducted two final groups, one consisting of participants living in a rural area and the other in an urban area. Participants independently completed a maturity level version of the questionnaire and provided feedback at intermediate stages. The comments on aspects such as mobile readiness, illustrations and decision-making in choice experiments proved valuable for the subsequent layout redesign we carried out with a contracted design agency.
+\
 
-### The pilots (pre-tests)
-(add information)
-- 2 pilots of 200 respondents each
-- during the months of august and october
+**Hypotheses related to Travel Cost study**
 
-## Questionnaire Structure
+\
 
-The survey is divided into six progressively structured sections, using simplified language and a user-friendly design. To enhance information absorption, we reduced the content on each screen and included bullet points and infoboxes where feasible. Graphical illustrations help clarify key concepts, while images and examples aim to reflect regional diversity in order to improve accessibility and relevance for a broader audience. Presenting additional information in the form of foldable text elements allows interested readers to clarify unresolved questions about concepts and content, while allowing others to move on more quickly. In this way, we aim to reduce drop-out rates due to time constraints and to provide a supportive environment for those who demand additional information.
+-   Hypothesis M4: For recreation demand (travel cost) approach utilization of recall-targeted survey tools (i.e., interactive maps, timeline graph, hints for rule-based calculations and feedback on reported numbers) has a significant impact on reported number of visits and their characteristics as well as on the resulting welfare estimates.
 
-### Introduction and first questions
+-   H1: Provision of an interactive map at the beginning of the travel cost section affects the location of the most frequently visited environmental site the respondents describe (e.g. distance from the place of residence) compared to provision of a map at the end of the travel cost section.
 
-The first part presents the core topic of the survey and the personal information that is required from the survey participants. The consent for the collection and processing of personal data and meeting the population representation quota of the survey are required for inclusion. If a participant does not meet these criteria or refuses to give consent, they will be screened out before reaching the first information block.
+-   
 
-The second part provides an introductory overview of the relationship between agricultural use and biodiversity. Illustrative sample images and text elements present the concepts of high nature value farmland and protected areas in an accessible and intelligible manner. The information elements are interrupted by content-related follow-up questions, in order to enhance reader engagement and attention.
+-   H2: Provision of an interactive map at the beginning of the travel cost section and subsequent display of selected location on the map in trip-number and trip-information elicitation questions compared to provision of a map at the end of the travel cost section:
 
-### Choice Set introduction
+-   H2.1. Affects the reported number of trips (e.g. mean and distribution).
 
-The third part introduces participants to the key attributes of the upcoming discrete choice experiment. This section outlines potential landscape modifications, the financial framework, and the structure of the hypothetical political process involved in the proposed project. 
+-   H2.2. Affects the visit information reported by the respondents (e.g. site type, whether they make the visits with their dog, number of people accompanying them, duration of time spent at the visited location)
 
-#### 29.   Do you use any measures to enhance validity and reduce hypothetical bias? (e.g. cheap talk, consequentiality, budget reminder, quiz questions)
-The potential influence of hypothetical bias is addressed by repeatedly emphasising the possibility of implementation of an analogous approach to the presented hypothetical referendum in a real-world context. Additionally, participants are regularly reminded that the results of the survey will be used to inform political decision-making, highlighting the potential influence their responses could have on actual policy outcomes. On each question set, an accompanying remark highlights the fact that respondents should vote in favour of the proposed measure only if they themselves are willing to pay the specified amount for the given period of time. 
+-   H2.3. Affects the mechanism used for trip number information retrieval.
 
+-   H2.4. Affects the resulting welfare measures.
 
-### Life satisfaction
-(empty)
+\
+\
 
-### Choice 
+-   H3: Provision of hints for rule-based calculations of past trips compared to no hints:
 
-#### 9.   Describe the choice situation or good to be valued
+-   H3.1. Affects the reported number of visits (e.g. mean and distribution)
 
-#### 11. List the number of alternatives per choice set, the number of choice sets in total and any blocks or random assignments if applicable.
+-   H3.2. Affects the resulting welfare measures.
 
+-   H3.3. Affects the mechanism used for trip number information retrieval.
 
-#### 20.   Do you use an opt-out option or a status quo?
-The fourth part of the study consists of a discrete choice experiment in which participants are asked to choose between two options: the status quo or a proposed landscape modification. Each choice is accompanied by two interactive maps, illustrating the spatial distribution of the respective areas, and a choice table detailing relevant information. Participants must select their preferred option, and this process is repeated across ten consecutive pages, with each page presenting a unique proposal.
-The proposals are randomly selected from a pre-generated pool of 500 choice sets.
+-   H3.4. Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
 
-#### 30.   Which follow up questions do you use?
-Follow-up questions are posed to elicit the underlying motivations behind participants' decisions during the choice experiment.
-(extend)
+-   H4. Provision of the timeline graph in the visit number elicitation question compared to no timeline graph:
 
-#### 10.  Which attributes (and respective levels) are you using?
-The proposals differ with respect to the area size and distribution of the planned extension of high nature value and protected areas, their visibility or accessibility, respectively, and the related mandatory annual payment.
+-   H4.1. Affects the reported number of visits (e.g. mean and distribution)
 
-We are using five attributes. The first attribute is the area of protected areas defined in line with the German law, the specific levels are based on the actual status quo of the respondents. The GIS data is provided by the German Federal Agency for Nature Conservation and is freely available. For half of the sample the levels are the individual status quo plus the vector of c(+100, +200, +300, +500, +800) (all values in hectare). To control for potential scope effects the other half of the sample gets the status quo values plus the vector of c(+200, +400, +600, +800, +1600). In the choice experiment we provide the respondents with the absolute hectare values as well as with the share of protected area on the non-built area, both referring to the area of 30 km around the place of residence of the respondent. The second attribute is the area of high nature value farmland, the attribute levels are calculated in the same manner. The GIS data is obtained from estimations the European Environment Agency. For this attribute we provide respondents again with the absolute hectare values and with the share of high nature value farmland on the agricultural area. For both attributes, the respondents can see their actual status quo and the proposed new areas on an interactive leaflet map. The exact location and distribution of the newly created area is randomly determined based on an algorithm written in R. To determine the new areas the algorithm relies on CORINE land cover data and uses only non-build area for new protected areas and only agricultural area for new high nature value farmland areas. The minimum size per patch is 10 hectares and the maximum size is 500 ha. The algorithm allow for deviations of +/- 5 % of the displayed newly created areas on the map. The location of the new areas is not varying within respondents for the same levels.
-The third attribute is the accessibility of the newly created protected areas, which has the levels "Not accessible", "Half of the area is accessible" and "Fully accessible".
-The fourth attribute is the visibility of the newly created high nature value farmland with the levels "Not visible from path or roads" and "Visible from path or roads". 
-The fifth attribute is the cost attribute which we define as a mandatory yearly payment per household into a nature conservation fund, which is managed by the local authorities. The cost attribute can take the values c(5, 10...)
+-   H4.2. Affects the resulting welfare measures.
 
-(Nino Refine, Others check)
+-   H4.3. Affects the mechanism used for trip number information retrieval.
 
-### NR6, CV, and Travel Cost
+-   H4.4. Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
 
-In the fifth part, the participants are divided into two groups which then receive disparate questions. Following this split, one third of the participants engage in an experiment on distributional decisions between financial and environmental budget appropriation, designed by our colleagues from the University of Hamburg. The remaining two-thirds first complete the six item questions of the nature-relatedness scale (Nisbet & Zelenski, 2013), and then are asked to indicate their willingness to pay for a general program that seeks to fulfill the EU biodiversity goals, using contingent valuation. At the conclusion of this section, participants are presented with travel costs questions based on their favorite place in nature for recreational purposes.
+-   H5. Provision of feedback on how the reported number of trips translates to average frequency of visits before asking the respondents
 
-### Socio-economic data
-#### 13.   Which socio-demographic and other case-specific variables do you need to test your hypotheses? Did you integrate socio-demographic and other case-specific variables in the design process, and if yes how?
-In the concluding section of the survey, respondents are presented with a series of conventional questions about their socio-economic circumstances, including educational background, employment status, household income, household size, current political party preference, and their living situation.
-(complete?)
-
-## Experimental Design
-
-### 12.   How did you code your attributes in the design? [eg. linear, dummy, effects]
-(necessary?)
-
-### 14.   Which assumptions on the utility function (or other decision-making rules) did you use to generate the design? [e.g. Random utility maximization, random regret minimization etc.]
-(Ask Julian)
-
-### 15.   How did you create your experimental design? [orthogonal, efficient, number of choice sets per person; labeled vs. unlabeled DCE etc.]
-(Ask Julian)
-
-### 16.   If efficient design, which priors did you use, and how did you obtain them?
-(Ask Julian)
-
-### 17.   Did you test the design, e.g. with simulation (attach file)?
-(Ask Julian)
-
-### 18.   Do you use an additional split sample approach (between-subject design). If yes, did you integrate the split-sample in the design?
-(Ask Julian)
-
-### 21. Anything else you want to mention regarding experimental design:
-
-
-## Randomizations
-
-#### 19.   Do you randomize the order of choice sets and attributes?
-
-The sequence of the response options may lead to a distortion of the observed results, due to phenomena such as primacy or recency bias. To address this issue, we implemented randomization at various points in the survey.
-
-### Order of Attributes
-
-To avoid bias from the order of attributes in the choice sets, respondents are randomly assigned to one of four groups. These groups determine the sequence of attributes displayed in the choice cards presented below the choice maps. The sequences are as follows:
-
-- 1, 2, 3, 4, 5 
-- 3, 4, 1, 2, 5 
-- 5, 1, 2, 3, 4 
-- 5, 3, 4, 1, 2.
-
-It should be noted that no rotation of attributes occurs within the aforementioned groups; only between them. Consequently, each respondent observes the same sequence across all ten choice sets. To further facilitate readability for the respondent, the attributes for HNV areas (1 and 2), namely size and visibility, and for protected areas (3 and 4), namely size and accessibility, are rotated only pairwise and maintain a consistent neighboring order across all four groups. Attribute 5 is the cost of the yearly payment. 
-
-### Order of Choice Sets shown
-
-By employing our design for efficiency, we have established a fixed set of 10 blocks, which vary with regard to the combinations of attribute values and their general frequencies. We randomly assign each survey participant to one of the ten blocks at the outset of the survey. Furthermore, each participant is allocated a randomized order in which the participant will see the 10 combinations of the block that provide the choice sets.
-
-### Order of alternatives
-
-Given the length of the survey, it is necessary to consider the possibility that respondents may simply select an answer option because it is simply easier to select. In the specific case of the choice sets, this may result in respondents selecting the answer option that is closer to the button that takes them to the next page, rather than making an informed decision on the basis of the choices presented. While this is particularly relevant for users of mobile devices, it can also have an impact on the overall set of choices. Therefore, in order to allow us to control for this effect, we randomly assign the respondents to one of two groups. For one half of the respondents, the status quo maps and choice cards are located on the left, while the proposed project measures are situated on the right. For the other half, the aforementioned information is presented in a reversed order. 
-
-### Multiple choice questions
-
-
-### Matrix questions
-
-We follow best practice by randomizing the order of questions within a matrix of questions. This includes one quality question, where the question asks respondents to select a particular option on a Likert scale. This enables us to evaluate the respondents' general attention to reading and to identify an indication of randomness or bias in their responses. 
-
-## Split Samples for Between-Subject experiments
-
-
-
-### Duration of the payment period
-
-In order to examine whether the duration of the mandatory annual payment has an impact on the decision of citizens to approve a project, the entire sample was divided into four equal groups. The four groups will be presented with a different payment duration in the questionnaire. The durations under consideration are five years, ten years, twenty years, or that the mandatory payment remains in place indefinitely. To ensure that survey participants do not overlook the information, we have included it at multiple points. Firstly, on the page providing information on the referendum process, the payment period length is included in the infographic on the timeframe of the landscape modification project and also displayed at the bottom of the page, highlighted to ensure that it captures the reader's attention. Subsequently, the information is presented between the question and the answer options on each of the ten choice sets. The objective is to ensure that respondents are aware of the temporal consequentiality of their decisions and to test whether respondents solely consider the amount of annual payments or whether the lifetime total influences their decision-making process.
-
-### Radius of potential extentions
-
-Moreover, we incorporated a split for the radius surrounding the residence, within which the potential extensions of the discussed areas may occur. The aforementioned levels are 15 km, 20 km, 25 km, and 30 km. One motivation for the implementation of this split is that, in consideration of the attributes of accessibility and visibility, the radius may exert an effect insofar as the areas presented are not in the immediate distance reachable without the use of a motorized vehicle. Furthermore, the radius displayed may influence respondents' orientation to the map. Areas may be less easily identifiable, particularly those that are more dispersed, and landmarks that are familiar to respondents may be more challenging to locate on a map that encompasses a larger area.
-
-### Size levels of area extension
-
-(add)
-1) respondents base their choice on the relative sizes of the area extensions
-2) respondents base their choice on the absolute sizes of the area extensions
-
-### Distribution of payment
-
-Apart from having a direct willingness to pay for natural capital, people may also have preferences for the distribution of the burden between individuals or households. Naturally, one would assume that people who have higher incomes should pay more. Thus equity preferences may impact the voting in the choice experiment. We develop two hypotheses regarding equity preferences
-
-1. If all individuals or households pay the exact same absolute amount , some respondents perceive this as unfair and vote against despite having a willingness to pay for the proposed change.
-
-2. If individuals pay according to their income, some respondents are willing to pay more the proposed changes, as they perceive the payment as fair. 
-
-We implement a test for the hypotheses by adapting a split-sample approach. In one split sample, we tell respondents that *all individuals pay the same absolute amount*. In the second split sample we tell respondents that *individuals pay according to their income in analogy to their marginal tax rate (Grenzsteuersatz)*. We do not provide specific details or examples as we expect that respondents are concerned about the idea that richer people pay higher amounts, while they do not consider the exact differences in payment. Such a heuristic was confirmed in the focus groups. 
-As a baseline, we do not mention the distribution of burden at all. 
-As a manipulation check we ask respondents after the choice experiment how the burden was distributed. If respondents have read the text, they would be able to give the correct answer. 
-
-Additionally, we ask respondents to state they preference for the distribution of the burden in a multiple choice question. 
-
-# Part C: Estimation
-
-## Hypotheses
-
-## The rich data in the survey
-
-## 22.   Which discrete choice models do you plan to estimate? Describe your model specification (e.g. utility function to be estimated)
-(Ask Nino)
-We think that for both attributes - protected area and high nature value farmland - the utility obtained from new areas depends on the individual endowment of the respondents. Therefore, we estimate models which allow for diminishing marginal utility of those attributes depending on the respondent's status quo. The different functional forms we want to consider are: Quadratic, Log, Log-Linear, Box-Cox and Linear (as baseline reference model).
-
-## 23.   Do you control for unobserved and observed heterogeneity, if yes, how (e.g. interactions, membership function in latent class model?
-
-We control for unobserved and observed heterogeneity in preferences by estimating mixed logit models and testing interactions with socio-demographic and/or spatially varying variables.
-
-### 24.   Do you estimate separate models for different groups?
-We estimate separate models given the subpopulations of the sample generated from the splits defined in (Ax).
-
-## 26.   If methodological research question, describe in detail how you test your methodical hypotheses.
-(Ask Julian, Nino)
-
-## 27.   Describe any additional exploratory analysis you have planned to conduct.
-(Ask Julian, Nino)
-
-## 28. Anything else you want to register regarding the design
-
-# Part D: General
-
-## 31.   What Inference criteria do you use (e.g. z-test 5% level)
-(Ask Nino)
-
-## 32.   Define how you deal with outliers and how you exclude respondents/choices.
-(Ask Julian, Nino)
-
-## 33. Anything else you want to preregister?
+# 
