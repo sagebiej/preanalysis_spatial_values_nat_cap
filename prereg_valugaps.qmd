@@ -17,7 +17,6 @@ editor:
   markdown: 
     wrap: sentence
 ---
-```{=latex}
 
 \title{Pre Analysis Plan for Spatial Explicit Economic Values of Natural Capital in Europe}
 
@@ -42,22 +41,43 @@ Burkhard Schweppe-Kraft; Katarzyna Skrzypek, Katarzyna Zagórska \\
 Abstract: Despite the urgent need to preserve natural capital, little is known about the direct benefits people receive from it. To achieve the sustainable development goals, especially Goal 15: Life on Land, reliable benefit estimates are required to incorporate the value of natural capital in national capital accounting, cost-benefit analyses, project appraisal, and in international policy agreements. What is needed is a comprehensive, transferable, and spatially-consistent benefit estimation. However, the multiple, interlinked services produced from natural capital make it hard to estimate its benefits, explaining a lack of robust benefit estimates. Using a novel valuation approach, the study discloses the benefits of natural capital and biodiversity, spatially differentiated all over Europe. The study employs a spatial-explicit choice experiment approach, which estimates benefits people receive from natural capital conditional on the current status in their places of residence. The results are easily transferable to other regions and contexts and allow trading off the benefits and costs of restoring natural capital and biodiversity. It can be seen in which regions the loss of natural capital is critical and where measures are most effective. Aggregated values indicate the overall willingness to pay of European citizens to restore natural capital, for example by adopting sustainable agriculture or creating natural protected areas. Stakeholders who are interested in the value of natural capital and biodiversity can easily use and adapt the estimates for their purposes. The results enrich the discussion on the loss of natural capital and biodiversity and can significantly contribute to broader policy discussions in the context of the interlinked climate and biodiversity crises.
 \end{abstract}
 
-```
 # Part A: General Information {.unnumbered}
 
 ## Background {.unnumbered}
 
-Economic values of natural capital are useful for policy makers at different scales and for different purposes. Its importance is manifested in several international efforts guiding how to estimate such values[^1], and how to use thus values in various contexts[^2]. Uses of economic values of natural capital in policy making include welfare analyses, assessment of damages, cost-benefit analyses, stakeholder engagements and natural capital accounting. While there is a large theoretical and empirical literature on valuation of natural capital, we still lack a holistic and consistent set of values of natural capital. This study aims to provide values of natural capital, which benefit the overall aim of a holistic valuation. Specifically, we derive spatially-explicit high resolution economic values of natural capital. Using different valuation methods – choice experiments, life satisfaction, travel cost – we conduct a survey with spatially individual valuation tasks to estimate functions for values of protected natural areas and high nature value farmland. Regarding the choice experiment, we have developed a new method to incorporate the current endowment of natural capital in the valuation task. Survey participants are confronted with maps showing their current endowment and then make a choice between different policy scenarios. The current endowment is calculated using European-wide GIS data on protected natural areas and high nature value farmland.
+Economic values of natural capital are useful for policy makers at different scales and for different purposes.
+Its importance is manifested in several international efforts guiding how to estimate such values[^1], and how to use thus values in various contexts[^2]
+. Uses of economic values of natural capital in policy making include welfare analyses, assessment of damages, cost-benefit analyses, stakeholder engagements and natural capital accounting
+. While there is a large theoretical and empirical literature on valuation of natural capital, we still lack a holistic and consistent set of values of natural capital
+. This study aims to provide values of natural capital, which benefit the overall aim of a holistic valuation
+. Specifically, we derive spatially-explicit high resolution economic values of natural capital
+. Using different valuation methods – choice experiments, life satisfaction, travel cost – we conduct a survey with spatially individual valuation tasks to estimate functions for values of protected natural areas and high nature value farmland
+. Regarding the choice experiment, we have developed a new method to incorporate the current endowment of natural capital in the valuation task
+. Survey participants are confronted with maps showing their current endowment and then make a choice between different policy scenarios
+. The current endowment is calculated using European-wide GIS data on protected natural areas and high nature value farmland
+.
 
 [^1]: see for example The Economics of Ecosystem Services and Biodiversity - TEEB (https://teebweb.org/) or The International Panel on Biodiversity and Ecosystem Services - IPBES (www.ipbes.net/the-values-assessment)
 
 [^2]: see for example The System of Environmental-Economic Accounting SEEA (seea.un.org)
 
-Our approach allows us to derive high resolution maps with values all over Europe. In our study, we present a novel approach in which high-resolution data from geographic information systems (GIS) are used directly in a discrete choice experiment. We show respondents their status quo endowments with protected areas and high nature value farmland as well as proposed extensions to these areas on interactive maps. Using an R algorithm and land cover data we ensure that all proposed changes are feasible. With this unique technical feature of the discrete choice experiment, we enable the respondents to incorporate their endowment with natural capital around their place of residence in the decision process and ensure that all proposed landscape changes are feasible, visible, and relevant in distance to the respondents. Further, we vary the accessibility of newly created protected areas, the visibility of the new high nature value farmland areas, and the distances to both of these new areas to partly disentangle the use and non-use values of these forms of natural capital. Additionally, by incorporating socio-demographic and spatially explicit variables, we seek to identify how different populations and regions perceive substitutes and complements to natural capital. The sample size of N = 15, 000 allows us to conduct an in-depth analysis of the major drivers in heterogeneity for preferences of natural capital.
+Our approach allows us to derive high resolution maps with values all over Europe.
+In our study, we present a novel approach in which high-resolution data from geographic information systems (GIS) are used directly in a discrete choice experiment.
+We show respondents their status quo endowments with protected areas and high nature value farmland as well as proposed extensions to these areas on interactive maps.
+Using an R algorithm and land cover data we ensure that all proposed changes are feasible.
+With this unique technical feature of the discrete choice experiment, we enable the respondents to incorporate their endowment with natural capital around their place of residence in the decision process and ensure that all proposed landscape changes are feasible, visible, and relevant in distance to the respondents.
+Further, we vary the accessibility of newly created protected areas, the visibility of the new high nature value farmland areas, and the distances to both of these new areas to partly disentangle the use and non-use values of these forms of natural capital.
+Additionally, by incorporating socio-demographic and spatially explicit variables, we seek to identify how different populations and regions perceive substitutes and complements to natural capital.
+The sample size of N = 15, 000 allows us to conduct an in-depth analysis of the major drivers in heterogeneity for preferences of natural capital.
 
 ## Key research questions {.unnumbered}
 
-Our study contributes to the research on valuing natural capital, leading to two sets of different research questions. First, we want to investigate the spatially-differentiated value of natural capital in Europe leading to the following set of research questions: What is the value of protected natural areas and high nature value farmland, and how does it differ across regions? What are determinants (socio-demographics, landscape features, substitutes and complements of natural capital) of these values? To what extent does the distance of natural capital impact its marginal value and welfare estimates? To what extent do spatial endowments of protected areas and high nature value farmland affect its marginal value and welfare estimates? What differences emerge between use-related values and non-use-related values?
+Our study contributes to the research on valuing natural capital, leading to two sets of different research questions.
+First, we want to investigate the spatially-differentiated value of natural capital in Europe leading to the following set of research questions: What is the value of protected natural areas and high nature value farmland, and how does it differ across regions?
+What are determinants (socio-demographics, landscape features, substitutes and complements of natural capital) of these values?
+To what extent does the distance of natural capital impact its marginal value and welfare estimates?
+To what extent do spatial endowments of protected areas and high nature value farmland affect its marginal value and welfare estimates?
+What differences emerge between use-related values and non-use-related values?
 
 1see for example The Economics of Ecosystem Services and Biodiversity - TEEB (https://teebweb.org/) or The International Panel on Biodiversity and Ecosystem Services - IPBES (www.ipbes.net/the-values-assessment) 2see for example The System of Environmental-Economic Accounting SEEA (seea.un.org)
 
@@ -76,16 +96,17 @@ Second, we want to investigate several methodical questions that are inherit to 
 -   In the context of recreation demand (travel cost) approach, how does survey formulation influence the respondent’s answers, and can targeted survey tools (e.g., interactive maps, timeline graph, calculation hints, feedback on reported numbers) improve recall and affect the obtained welfare estimates?
 
 ### 2. What are your hypotheses? {.unnumbered}
+
 \newcounter{hyp} 
-\setcounter{hyp}{0} 
+\setcounter{hyp}{0}
 
--   **Hypothesis \refstepcounter{hyp}\thehyp \label{hyp-1}:** People are willing to give up some of their income to improve natural capital in the form of protected areas and high nature value farmlands.
+-   **Hypothesis** \refstepcounter{hyp}\thehyp \label{hyp-1}: People are willing to give up some of their income to improve natural capital in the form of protected areas and high nature value farmlands.
 
--   **Hypothesis \refstepcounter{hyp}\thehyp \label{hyp-2}:** The value of natural capital is significantly influenced by sociodemographic characteristics and spatially explicit factors, leading to variations in values across different groups and regions.
+-   **Hypothesis** \refstepcounter{hyp}\thehyp \label{hyp-2}: The value of natural capital is significantly influenced by sociodemographic characteristics and spatially explicit factors, leading to variations in values across different groups and regions.
 
--   **Hypothesis \refstepcounter{hyp}\thehyp: \label{hyp-3}** The marginal value of natural capital decreases as endowment increases, suggesting diminishing returns.
+-   **Hypothesis** \refstepcounter{hyp}\thehyp: \label{hyp-3} The marginal value of natural capital decreases as endowment increases, suggesting diminishing returns.
 
--   **Hypothesis \refstepcounter{hyp}\thehyp: \label{hyp-4}** Use related values of natural capital are higher than non-use related values.
+-   **Hypothesis** \refstepcounter{hyp}\thehyp: \label{hyp-4} Use related values of natural capital are higher than non-use related values.
 
 \
 \
@@ -95,9 +116,10 @@ Methodological hypotheses: 
 ```         
 Related to Choice Experiment
 ```
-\setcounter{hyp}{0} 
 
--   **Hypothesis M\refstepcounter{hyp}\thehyp \label{hyp-M1a}a:** The scope of the changes in natural capital is influencing the values of natural capital.
+\setcounter{hyp}{0}
+
+-   **Hypothesis M**\refstepcounter{hyp}\thehyp \label{hyp-M1a}a: The scope of the changes in natural capital is influencing the values of natural capital.
 
 \
 
@@ -125,38 +147,52 @@ Related to Choice Experiment
 
 -   H2: Provision of an interactive map at the beginning of the travel cost section and subsequent display of selected location on the map in trip-number and trip-information elicitation questions compared to provision of a map at the end of the travel cost section:
 
--   H2.1. Affects the reported number of trips (e.g. mean and distribution).
+-   H2.1.
+    Affects the reported number of trips (e.g. mean and distribution).
 
--   H2.2. Affects the visit information reported by the respondents (e.g. site type, whether they make the visits with their dog, number of people accompanying them, duration of time spent at the visited location)
+-   H2.2.
+    Affects the visit information reported by the respondents (e.g. site type, whether they make the visits with their dog, number of people accompanying them, duration of time spent at the visited location)
 
--   H2.3. Affects the mechanism used for trip number information retrieval.
+-   H2.3.
+    Affects the mechanism used for trip number information retrieval.
 
--   H2.4. Affects the resulting welfare measures.
+-   H2.4.
+    Affects the resulting welfare measures.
 
 \
 \
 
 -   H3: Provision of hints for rule-based calculations of past trips compared to no hints:
 
--   H3.1. Affects the reported number of visits (e.g. mean and distribution)
+-   H3.1.
+    Affects the reported number of visits (e.g. mean and distribution)
 
--   H3.2. Affects the resulting welfare measures.
+-   H3.2.
+    Affects the resulting welfare measures.
 
--   H3.3. Affects the mechanism used for trip number information retrieval.
+-   H3.3.
+    Affects the mechanism used for trip number information retrieval.
 
--   H3.4. Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
+-   H3.4.
+    Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
 
--   H4. Provision of the timeline graph in the visit number elicitation question compared to no timeline graph:
+-   H4.
+    Provision of the timeline graph in the visit number elicitation question compared to no timeline graph:
 
--   H4.1. Affects the reported number of visits (e.g. mean and distribution)
+-   H4.1.
+    Affects the reported number of visits (e.g. mean and distribution)
 
--   H4.2. Affects the resulting welfare measures.
+-   H4.2.
+    Affects the resulting welfare measures.
 
--   H4.3. Affects the mechanism used for trip number information retrieval.
+-   H4.3.
+    Affects the mechanism used for trip number information retrieval.
 
--   H4.4. Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
+-   H4.4.
+    Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
 
--   H5. Provision of feedback on how the reported number of trips translates to average frequency of visits before asking the respondents
+-   H5.
+    Provision of feedback on how the reported number of trips translates to average frequency of visits before asking the respondents
 
 # 
 
@@ -167,3 +203,39 @@ Related to Choice Experiment
 Testing \hyperref[hyp-M1a]{\textbf{Hypothesis M\ref*{hyp-M1a}a}}, we want to analyze...
 
 Testing \textbf{\hyperref[hyp-1]{Hypothesis \ref*{hyp-1}}}, we want to analyze...
+
+
+
+# Publication strategy
+
+## The large dataset cannot be summarized and analyzed in one single paper. For different research questions, we plan to write different papers. The papers are listed here:
+
+1. Spatial explicit valuation of natural capital in Germany and its transferibility: Implications for policy and benefit transfers
+
+- In this paper, we estimate a spatial explicit utility function to capture local willingness to pay values for landscape changes. We derive a marginal willingness to pay function that contains spatial and socio-demographic variables. The willingness to pay function allows us to predict marginal willingness to pay on high resolution spatial units. Having a large set of observed values, we test how the marginal willingness to pay function predicts local marginal willingness to pay. We use several different utility specifications (quadratic, logaritmic, Cox-Box) and different predictor variables to empirically identify the best specification in terms of a) model fit and b) predictive power. 
+
+2. The effect of scope, and distance stated preferences
+
+The literature has impressively shown a lack of sensitivity to scope of stated preferences, while distance to the good to be valued plays a critically explain stated preferences. This paper investigates the effects of distance and scope simultaneously in a between-sample and within sample experiment. Scope is defined as the actual amount of the good to be valued, while distance is defined as the distance to the good to be valued as well as the quantity within distance.  
+
+
+
+3. Estimating the economic value of recreation in natural environments using travel costs: The effects of ... and ...
+
+4. The impact of nature relatedness on the economic value of natural capital
+
+People who strongly relate to nature are likely more interested in measures to protect nature and derive higher utility from natural environments than people who less strongly relate to nature. At the same time, these people may more likely reject individual or collective payments to improve the natural environment and have other perceptions of the distribution of the costs to imrpove natural environments... blabla dont know 
+
+5. Left-right bias and ordering effects (@Nino`: hier vielleicht Pierre und Romain fragen ob die bock haben mitzumachen, die kennen die Literature ganz gut.)
+
+Several papers have shown that the order of attributes and alternative affect choices in a stated preference survey...
+
+6. Life satisfaction ... i have no idea ... how satisfied are people with their lives in natural capital rich areas
+
+7. Comparison of methods to estimate the implicit price of natural capital: Choice experiments, travel cost and life satisfaction
+
+8. The effect of the distribution of costs on willingness to pay for natural capital
+
+Despite the fact that people are willing to give up income in exchange for a better natural environment, several people state not to pay conditional on the actual distribution of the costs. Costs can be distributed in various ways. Richer people can be asked to pay more than poorer people, everyone can pay the same, those who benefit most can pay more, and those who create more damage pay more. This paper explores the acceptance of an individual payment for improvements on natural capital conditional on how the costs are distributed. We set up a theoretical model that models rejection of a specific payment as an argument in the utility function...
+
+8. 
