@@ -52,7 +52,7 @@ demographic characteristics and spatially explicit factors, leading to variation
 
 \
 
--    **Hypothesis 3:** The marginal value of natural capital decreases as endowment in
+-   **Hypothesis 3:** The marginal value of natural capital decreases as endowment in
 
 creases, suggesting diminishing returns.
 
@@ -65,7 +65,9 @@ creases, suggesting diminishing returns.
 
 Methodological hypotheses: 
 
-	Related to Choice Experiment
+```         
+Related to Choice Experiment
+```
 
 -   Hypothesis M1a: The scope of the changes in natural capital is influencing the values of natural capital.
 
