@@ -83,17 +83,17 @@ What differences emerge between use-related values and non-use-related values?
 
 Second, we want to investigate several methodical questions that are inherit to the current practice of choice experiments:
 
--   What are the implications of the usage of different specifications of the utility function (e.g. linear, quadratic, Box-Cox) on welfare estimates?
+-   *What are the implications of the usage of different specifications of the utility function (e.g. linear, quadratic, Box-Cox) on welfare estimates?*
 
--   Does the scope (i.e. regional extent) of a measure to protect natural capital impact the value (scope and embedding effects)?
+-   *Does the scope (i.e. regional extent) of a measure to protect natural capital impact the value (scope and embedding effects)?*
 
--   Are elicited values constant over different methods (choice experiment, travel cost method, life satisfaction)?
+-   *Are elicited values constant over different methods (choice experiment, travel cost method, life satisfaction)?*
 
--   How do the distributional consequences of the payment vehicle impact choices and values?
+-   *How do the distributional consequences of the payment vehicle impact choices and values?*
 
--   How do different time horizons of the payment period impact choices and values?
+-   *How do different time horizons of the payment period impact choices and values?*
 
--   In the context of recreation demand (travel cost) approach, how does survey formulation influence the respondent’s answers, and can targeted survey tools (e.g., interactive maps, timeline graph, calculation hints, feedback on reported numbers) improve recall and affect the obtained welfare estimates?
+-   *In the context of recreation demand (travel cost) approach, how does survey formulation influence the respondent’s answers, and can targeted survey tools (e.g., interactive maps, timeline graph, calculation hints, feedback on reported numbers) improve recall and affect the obtained welfare estimates?*
 
 ### 2. What are your hypotheses? {.unnumbered}
 
@@ -111,7 +111,7 @@ Second, we want to investigate several methodical questions that are inherit to 
 \
 \
 
-Methodological hypotheses: 
+#### Methodological hypotheses: 
 
 ```         
 Related to Choice Experiment
@@ -139,60 +139,47 @@ Related to Choice Experiment
 
 \
 
--   Hypothesis M4: For recreation demand (travel cost) approach utilization of recall-targeted survey tools (i.e., interactive maps, timeline graph, hints for rule-based calculations and feedback on reported numbers) has a significant impact on reported number of visits and their characteristics as well as on the resulting welfare estimates.
+-   **Hypothesis M4**: For recreation demand (travel cost) approach utilization of recall-targeted survey tools (i.e., interactive maps, timeline graph, hints for rule-based calculations and feedback on reported numbers) has a significant impact on reported number of visits and their characteristics as well as on the resulting welfare estimates.
 
--   H1: Provision of an interactive map at the beginning of the travel cost section affects the location of the most frequently visited environmental site the respondents describe (e.g. distance from the place of residence) compared to provision of a map at the end of the travel cost section.
+-   **H1**: Provision of an interactive map at the beginning of the travel cost section affects the location of the most frequently visited environmental site the respondents describe (e.g. distance from the place of residence) compared to provision of a map at the end of the travel cost section.
 
 -   
 
--   H2: Provision of an interactive map at the beginning of the travel cost section and subsequent display of selected location on the map in trip-number and trip-information elicitation questions compared to provision of a map at the end of the travel cost section:
+-   **H2**: Provision of an interactive map at the beginning of the travel cost section and subsequent display of selected location on the map in trip-number and trip-information elicitation questions compared to provision of a map at the end of the travel cost section:
 
--   H2.1.
+-   **H2.1**.
     Affects the reported number of trips (e.g. mean and distribution).
 
--   H2.2.
-    Affects the visit information reported by the respondents (e.g. site type, whether they make the visits with their dog, number of people accompanying them, duration of time spent at the visited location)
+-   **H2.2.** Affects the visit information reported by the respondents (e.g. site type, whether they make the visits with their dog, number of people accompanying them, duration of time spent at the visited location)
 
--   H2.3.
-    Affects the mechanism used for trip number information retrieval.
+-   **H2.3.** Affects the mechanism used for trip number information retrieval.
 
--   H2.4.
-    Affects the resulting welfare measures.
+-   **H2.4.** Affects the resulting welfare measures.
 
 \
 \
 
--   H3: Provision of hints for rule-based calculations of past trips compared to no hints:
+-   **H3:** Provision of hints for rule-based calculations of past trips compared to no hints:
 
--   H3.1.
-    Affects the reported number of visits (e.g. mean and distribution)
+-   **H3.1.** Affects the reported number of visits (e.g. mean and distribution)
 
--   H3.2.
-    Affects the resulting welfare measures.
+-   **H3.2.** Affects the resulting welfare measures.
 
--   H3.3.
-    Affects the mechanism used for trip number information retrieval.
+-   **H3.3.** Affects the mechanism used for trip number information retrieval.
 
--   H3.4.
-    Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
+-   **H3.4.** Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
 
--   H4.
-    Provision of the timeline graph in the visit number elicitation question compared to no timeline graph:
+-   **H4.** Provision of the timeline graph in the visit number elicitation question compared to no timeline graph:
 
--   H4.1.
-    Affects the reported number of visits (e.g. mean and distribution)
+-   **H4.1.** Affects the reported number of visits (e.g. mean and distribution)
 
--   H4.2.
-    Affects the resulting welfare measures.
+-   **H4.2.** Affects the resulting welfare measures.
 
--   H4.3.
-    Affects the mechanism used for trip number information retrieval.
+-   **H4.3.** Affects the mechanism used for trip number information retrieval.
 
--   H4.4.
-    Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
+-   **H4.4.** Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
 
--   H5.
-    Provision of feedback on how the reported number of trips translates to average frequency of visits before asking the respondents
+-   **H5.** Provision of feedback on how the reported number of trips translates to average frequency of visits before asking the respondents
 
 # 
 
@@ -204,38 +191,42 @@ Testing \hyperref[hyp-M1a]{\textbf{Hypothesis M\ref*{hyp-M1a}a}}, we want to ana
 
 Testing \textbf{\hyperref[hyp-1]{Hypothesis \ref*{hyp-1}}}, we want to analyze...
 
-
-
 # Publication strategy
 
 ## The large dataset cannot be summarized and analyzed in one single paper. For different research questions, we plan to write different papers. The papers are listed here:
 
-1. Spatial explicit valuation of natural capital in Germany and its transferibility: Implications for policy and benefit transfers
+1.  **Spatial explicit valuation of natural capital in Germany and its transferability: Implications for policy and benefit transfers**
 
-- In this paper, we estimate a spatial explicit utility function to capture local willingness to pay values for landscape changes. We derive a marginal willingness to pay function that contains spatial and socio-demographic variables. The willingness to pay function allows us to predict marginal willingness to pay on high resolution spatial units. Having a large set of observed values, we test how the marginal willingness to pay function predicts local marginal willingness to pay. We use several different utility specifications (quadratic, logaritmic, Cox-Box) and different predictor variables to empirically identify the best specification in terms of a) model fit and b) predictive power. 
+-   In this paper, we estimate a spatial explicit utility function to capture local willingness to pay values for landscape changes. We derive a marginal willingness to pay function that contains spatial and socio-demographic variables. The willingness to pay function allows us to predict marginal willingness to pay on high resolution spatial units. Having a large set of observed values, we test how the marginal willingness to pay function predicts local marginal willingness to pay. We use several different utility specifications (quadratic, logarithmic, Cox-Box) and different predictor variables to empirically identify the best specification in terms of a) model fit and b) predictive power.
 
-2. The effect of scope, and distance stated preferences
+2.  **The effect of scope and distance on stated preferences**
 
-The literature has impressively shown a lack of sensitivity to scope of stated preferences, while distance to the good to be valued plays a critically explain stated preferences. This paper investigates the effects of distance and scope simultaneously in a between-sample and within sample experiment. Scope is defined as the actual amount of the good to be valued, while distance is defined as the distance to the good to be valued as well as the quantity within distance.  
+-  The literature has impressively shown a lack of sensitivity to scope of stated preferences, while distance to the good to be valued plays a critically role in explain stated preferences.
+This paper investigates the effects of distance and scope simultaneously in a between-sample and within sample experiment.
+Scope is defined as the actual amount of the good to be valued, while distance is defined as the distance to the good to be valued as well as the quantity within distance.
 
+3.  **Estimating the economic value of recreation in natural environments using travel costs: The effects of ... and ...**
 
+4.  **The impact of nature relatedness on the economic value of natural capital**
 
-3. Estimating the economic value of recreation in natural environments using travel costs: The effects of ... and ...
+-  People who strongly relate to nature are likely more interested in measures to protect nature and derive higher utility from natural environments than people who less strongly relate to nature.
+At the same time, these people may more likely reject individual or collective payments to improve the natural environment and have other perceptions of the distribution of the costs to improve natural environments...
+blabla dont know
 
-4. The impact of nature relatedness on the economic value of natural capital
+5.  **Left-right bias and ordering effects** (@Nino\`: hier vielleicht Pierre und Romain fragen ob die bock haben mitzumachen, die kennen die Literature ganz gut.)
 
-People who strongly relate to nature are likely more interested in measures to protect nature and derive higher utility from natural environments than people who less strongly relate to nature. At the same time, these people may more likely reject individual or collective payments to improve the natural environment and have other perceptions of the distribution of the costs to imrpove natural environments... blabla dont know 
+-  Several papers have shown that the order of attributes and alternative affect choices in a stated preference survey...
 
-5. Left-right bias and ordering effects (@Nino`: hier vielleicht Pierre und Romain fragen ob die bock haben mitzumachen, die kennen die Literature ganz gut.)
+6.  **Life satisfaction ... i have no idea ... how satisfied are people with their lives in natural capital rich areas/Maybe: The effects of natural capital on human well-being ?**
 
-Several papers have shown that the order of attributes and alternative affect choices in a stated preference survey...
+7.  **Comparison of methods to estimate the implicit price of natural capital: Choice experiments, travel cost and life satisfaction**
 
-6. Life satisfaction ... i have no idea ... how satisfied are people with their lives in natural capital rich areas
+8.  **The effect of the distribution of costs on willingness to pay for natural capital**
 
-7. Comparison of methods to estimate the implicit price of natural capital: Choice experiments, travel cost and life satisfaction
+-  Despite the fact that people are willing to give up income in exchange for a better natural environment, several people state not to pay conditional on the actual distribution of the costs.
+Costs can be distributed in various ways.
+Richer people can be asked to pay more than poorer people, everyone can pay the same, those who benefit most can pay more, and those who create more damage pay more.
+This paper explores the acceptance of an individual payment for improvements on natural capital conditional on how the costs are distributed.
+We set up a theoretical model that models rejection of a specific payment as an argument in the utility function.
 
-8. The effect of the distribution of costs on willingness to pay for natural capital
-
-Despite the fact that people are willing to give up income in exchange for a better natural environment, several people state not to pay conditional on the actual distribution of the costs. Costs can be distributed in various ways. Richer people can be asked to pay more than poorer people, everyone can pay the same, those who benefit most can pay more, and those who create more damage pay more. This paper explores the acceptance of an individual payment for improvements on natural capital conditional on how the costs are distributed. We set up a theoretical model that models rejection of a specific payment as an argument in the utility function...
-
-8. 
+9.  
