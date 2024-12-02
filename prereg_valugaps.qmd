@@ -3,16 +3,16 @@ format:
   pdf:
     number-sections: false
     pdf-engine: lualatex
-    include-in-header: |
-      \usepackage{hyperref}
-      \hypersetup{
-        colorlinks=true,
-        linkcolor=blue,
-        filecolor=magenta,
-        urlcolor=cyan,
-        pdftitle={Pre Analysis Plan for Spatial Explicit Economic Values of Natural Capital in Europe},
-        pdfpagemode=FullScreen
-      }
+header-includes:
+  - \usepackage{hyperref}
+  - \hypersetup{
+      colorlinks=true,
+      linkcolor=blue,
+      filecolor=magenta,
+      urlcolor=cyan,
+      pdftitle={Pre Analysis Plan for Spatial Explicit Economic Values of Natural Capital in Europe},
+      pdfpagemode=FullScreen
+    }
 editor: 
   markdown: 
     wrap: sentence
