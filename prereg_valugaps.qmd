@@ -256,7 +256,6 @@ The survey is divided into six progressively structured sections, using simplifi
 
 
 The core of the valuation study is a discrete choice experiment. A choice experiment is a commonly used, yet highly contested, method in environmental economic valuation. A large literature discusses its validity and provides best practices and conditions for valid preference elicitation and welfare measurement. One purpose of this pre-analysis plan is that we want to make sure that we have accounted for all necessary conditions and already discuss potential challenges regarding validity before data collection. The choice experiment is complemented with two other economic valuation approaches – travel cost method and life satisfaction. These approaches are based on the same theoretical framework as choice experiments and should - in theory - provide similar results. A comparison of the results of the three methods allows us to investigate the validity of our value estimates. \newline
-\
 
 **Introduction and first questions**\
 The first part presents the core topic of the survey and the personal information that is required from the survey participants. The consent for the collection and processing of personal data and meeting the population representation quota of the survey are required for inclusion. If a participant does not meet these criteria or refuses to give consent, the respondent will be screened out before reaching the first information block.\
@@ -272,7 +271,19 @@ The fourth part of the study consists of a discrete choice experiment in which p
 **Follow-up questions**\
 In the literature on stated preference studies, respondents who categorically reject the hypothetical scenario presented despite they actually benefit from the scenario (willingness to pay > 0) are referred as protesters.  The decisions of these protesters are likely to be driven by motives other than the evaluation of the presented attributes of the choice sets. The correct identification of protesters is important because their inclusion or exclusion from the analysis can affect welfare estimates (\textbf{\hyperref[ref-14]{Halstead \& Page Jr, 1992}}; \textbf{\hyperref[ref-18]{Strazzera et al., 2003}}). In order to distinguish protesters from respondents whose decisions genuinely reflect their preferences, a threshold value of rejections has been implemented. If a respondent rejects at least seven of the ten proposed landscape modifications presented, they are redirected to answer a subset of questions on the subsequent page, after the final choice set, in order to elicit further information regarding their general opposition to the project presented. These five questions ask about their general views on the payment instrument, whether they felt there was a lack of information, or whether they objected to the way the questions were posed. The questions are used to classify the respondents into protesters and “true WTP <= zero” respondents. After this page, these respondents continue with the questionnaire. On the next page, all respondents receive the same follow-up questions about the general underlying motivations behind their choices in the choice experiment.
 
-This follow-up page consists of a series of matrix questions to be answered on a 5-point Likert scale. The questions are designed to elicit information about the respondents' general attitudes and considerations regarding the consequentiality of the survey. Respondents are then asked for their opinion on the distribution of costs between households.\newline
+This follow-up page consists of a series of matrix questions to be answered on a 5-point Likert scale. The questions are designed to elicit information about the respondents' general attitudes and considerations regarding the consequentiality of the survey. Respondents are then asked for their opinion on the distribution of costs between households. At the end of this part of the survey, we ask the respondents in a non-obligatory open question for any general comments on their response behavior in the previous sets of choices.
+
+Taking the data from the soft-launch sample, 98[^3] out of 147 comments were related to the content of the survey. The predominant self-reported drivers for voting for or against a proposed landscape change can be categorized into three groups: The presented attributes, the organisational aspects and the respondents' general personal views on nature conservation:
+
+[^3]: Responses that touched on two or three issues were assigned to each of these categories. For this reason, the total does not add up to the sum of the individual categories.
+
+-   Among the survey attributes the most frequently mentioned was cost (32), as suggested by preliminary data analysis of the DCE data from the soft launch sample. Respondents cited either the overall cost as critical, the cost in relation to the budget constraints they face, or in terms of a cost/benefit trade-off. Sixteen comments mentioned the size and dispersion of the areas to be created, the latter including the proximity of the areas to their homes. Accessibility or visibility played only a minor role.
+
+-   With regard to the organizational aspects, twenty-two respondents firmly opposed any additional taxes or levies, often accompanied by the statement that the current tax burden on individuals is already high enough and should be borne by the government. Another six responses alluded to a general distrust of politics. Another seven responses mentioned the treatments \textbf{\hyperref[split-samples]{duration of the payment period}} and \textbf{\hyperref[equity]{distribution of the payment}}.
+
+-   Fourteen respondents explained their vote either by their personal relationship to nature, e.g. general support for biodiversity protection, or by pre-existing conditions around them, e.g. the status quo of nature in their region. In addition, eighteen responses made only general comments about personal support or opposition, of which only two were generally opposed to the project. 
+
+The responses we collect at this stage can complement the interpretation of the DCE data and potentially form the basis of independent qualitative research. \newline
 
 **NR6, CV, and Travel Cost**\
 In the fifth part of the study, the participants are divided into two groups, which then receive different questions. Subsequently, one-third of the participants engage in an experiment examining distributional decisions between financial and environmental budget appropriation. The remaining two-thirds of participants are first required to complete the six-item questions of the nature-relatedness scale (\textbf{\hyperref[ref-16]{Nisbet \& Zelenski, 2013}}). They are then asked to indicate their willingness to pay for a general programme that seeks to fulfil the EU biodiversity goals, using a contingent valuation question. At the conclusion of this section, participants are presented with questions regarding travel costs associated with their recreational visits to local environmental sites.  The format of the questions in the travel cost section will depend on the treatment group to which the respondent is assigned. The questions will inquire about the number of visits to local environmental sites and whether the interactive map is presented at the beginning and displayed on the following screens, or only at the end of the section. The four treatments are as follows: 1, 2, 3 and 4. Approximately 50% of respondents will be randomly assigned to each of the two groups within each treatment. This results in approximately 6.25% of respondents being exposed to each of the 16 possible combinations of the survey. \newline
@@ -335,7 +346,7 @@ Areas may be less easily identifiable, particularly those that are more disperse
 **Size levels of area extension**\
 We repeatedly remind respondents that each set of choices should be considered separately, and therefore only the attributes of each proposed landscape change compared to the status quo should be considered in their decision.
 Nevertheless, as respondents answer the ten sets of choices, they become aware of the full range of potential expansions.
-We account for the effect of the previous examples on the decision by randomizing the order in which they appear (see B.VI.).
+We account for the effect of the previous examples on the decision by randomizing the order in which they appear (see the \textbf{\hyperref[randoms]{Randomizations}} subsection for details).
 The question remains as to how the participants perceive these area sizes:
 
 1.  Respondents may base their choices on the relative size of the areas, using a comparative scale where the levels are relevant to them in relation to each other.
@@ -346,7 +357,8 @@ The question remains as to how the participants perceive these area sizes:
 Another reason for implementing a split at this point is that we want to cover a wider range of potential landscape modification areas, without overwhelming the individual participant with too much variety within their choice sets.
 \
 
-**Distribution of payment** \newline Apart from having a direct willingness to pay for natural capital, people may also have preferences for the distribution of the burden between individuals or households.
+**Distribution of payment** \   \label{equity}
+Apart from having a direct willingness to pay for natural capital, people may also have preferences for the distribution of the burden between individuals or households.
 Naturally, one would assume that people who have higher incomes should pay more.
 Thus equity preferences may impact the voting in the choice experiment.
 We develop two hypotheses regarding equity preferences:
@@ -396,7 +408,7 @@ The survey allows for several methodical research questions, mostly implemented 
 
 Respondents are excluded according to the following criteria:
 
-1. We use control questoins in likert scaled question blocks where respondents are instructed to select one specific answer. If respondents did not select this answer, it is likely that they did not read the question properly, and randomly clicked through the survey. Respondents who fail this “attention check” will be excluded
+1. We use control questions in Likert scaled question blocks where respondents are instructed to select one specific answer. If respondents did not select this answer, it is likely that they did not read the question properly, and randomly clicked through the survey. Respondents who fail this “attention check” will be excluded
 
 2. We follow the survey company's convention of considering any respondent who completes the survey in less than one-third of the median time will be classified as a "speeder." Given the results of our pilot studies, we expect this cut-off to be up to approximately 8.5 minutes.
 
