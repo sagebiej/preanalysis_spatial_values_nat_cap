@@ -6,6 +6,7 @@ format:
     pdf-engine: lualatex
 header-includes:
   - \usepackage{hyperref}
+  - \newcommand{\hypref}[1]{\hyperref[#1]{\ref{#1}}}
   - \hypersetup{
       colorlinks=true,
       linkcolor=blue,
@@ -65,14 +66,21 @@ The sample size of N = 15, 000 allows us to conduct an in-depth analysis of the 
 ## Key research questions {.unnumbered}
 
 Our study contributes to the research on valuing natural capital, leading to two sets of different research questions.
-First, we want to investigate the spatially-differentiated value of natural capital in Europe leading to the following set of research questions: 
+First, we want to investigate the spatially-differentiated value of natural capital in Europe leading to the following set of research questions:
+
 -    *What is the value of protected natural areas and high nature value farmland, and how does it differ across regions?*
+
 -    *What are determinants (socio-demographics, landscape features, substitutes and complements of natural capital) of these values?*
+
 -    *To what extent does the distance of natural capital impact its marginal value and welfare estimates?*
+
 -    *To what extent do spatial endowments of protected areas and high nature value farmland affect its marginal value and welfare estimates?*
+
 -    *What differences emerge between use-related values and non-use-related values?*
 
-Second, we want to investigate several methodical questions that are inherent to the current practice of choice experiments:
+-    *To what extent are values transferable between regions and how can the transfer function be optimized?*
+
+Second, we want to investigate several methodical questions, inherent to the current practice of choice experiments and the travel cost method:
 
 -   *What are the implications of the usage of different specifications of the utility function (e.g. linear, quadratic, Box-Cox) on welfare estimates?*
 
@@ -97,31 +105,35 @@ Second, we want to investigate several methodical questions that are inherent to
 
 -   **Hypothesis** \refstepcounter{hyp}\thehyp \label{hyp-2}: The value of natural capital is significantly influenced by sociodemographic characteristics and spatially explicit factors, leading to variations in values across different groups and regions.
 
--   **Hypothesis** \refstepcounter{hyp}\thehyp: \label{hyp-3}: The marginal value of natural capital decreases as endowment increases, suggesting diminishing returns.
+-   **Hypothesis** \refstepcounter{hyp}\thehyp \label{hyp-3}: The marginal value of natural capital decreases as endowment increases, suggesting diminishing returns.
 
--   **Hypothesis** \refstepcounter{hyp}\thehyp: \label{hyp-4}: Use related values of natural capital are higher than non-use related values.
+-   **Hypothesis** \refstepcounter{hyp}\thehyp \label{hyp-dist}: The marginal value of natural capital decreases as distance to it increases, and this effect is even more pronounced if the change in natural capital is related to use-values.
+
+-   **Hypothesis** \refstepcounter{hyp}\thehyp \label{hyp-4}: Use related values of natural capital are higher than non-use related values.
+
+-   **Hypothesis** \refstepcounter{hyp}\thehyp \label{hyp-5}: With a well specified transfer function, values can be reliably transfered between regions.
 
 
 ### Methodological hypotheses - Choice Experiment
 
--   **Hypothesis M1a**\label{hyp-M1a}: The scope of the changes in natural capital is influencing the values of natural capital.
+-   **Hypothesis M1** \refstepcounter{hyp}\thehyp \label{hyp-M1}: The scope of the changes in natural capital is influencing the values of natural capital.
 
 -   **Hypothesis M2** \label{hyp-M2}: The distributional consequences of the payment vehicle have a significant impact on the elicited values of natural capital.
 
--   **Hypothesis M2a**\label{hyp-M2a}: Derived natural capital values depend more on the relative than the absolute attribute levels, when comparing two different vectors of attribute levels.
+-   **Hypothesis M3**\label{hyp-M3}: Derived natural capital values depend more on the relative than the absolute attribute levels, when comparing two different vectors of attribute levels.
 
--   **Hypothesis M3**\label{hyp-M3}: If the duration of the payment period increases, respondents are less likely to vote in favor of increases in natural capital.
+-   **Hypothesis M4**\label{hyp-M4}: If the duration of the payment period increases, respondents are less likely to vote in favor of increases in natural capital.
 
 
 ### Methodological hypotheses - Travel cost study
 
 \setcounter{hyp}{0}
 
--   **Hypothesis M4**\label{hyp-M4}: For recreation demand (travel cost) approach utilization of recall-targeted survey tools (i.e., interactive maps, timeline graph, hints for rule-based calculations and feedback on reported numbers) has a significant impact on reported number of visits and their characteristics as well as on the resulting welfare estimates.
+-   **Hypothesis T0**\label{hyp-recall}: For recreation demand (travel cost) approaches, utilization of recall-targeted survey tools (i.e., interactive maps, timeline graph, hints for rule-based calculations and feedback on reported numbers) have a significant impact on the reported number of visits and their characteristics as well as on the resulting welfare estimates.
 
--   **Hypothesis T1**\label{hyp-T1}: Provision of an interactive map at the beginning of the travel cost study part affects the location of the most frequently visited environmental site the respondents describe (e.g. distance from the place of residence) compared to provision of a map at the end of the travel cost study part.
+-   **Hypothesis T1**\label{hyp-map}: Provision of an interactive map at the beginning of the travel cost study part affects the location of the most frequently visited environmental site the respondents describe (e.g. distance from the place of residence) compared to provision of a map at the end of the travel cost study part.
 
--   **Hypothesis T2**\label{hyp-T2}: Provision of an interactive map at the beginning of the travel cost study part and subsequent display of selected location on the map in trip-number and trip-information elicitation questions compared to provision of a map at the end of the travel cost study part:
+-   **Hypothesis T2**\label{hyp-map2}: Provision of an interactive map at the beginning of the travel cost study part and subsequent display of selected location on the map in trip-number and trip-information elicitation questions compared to provision of a map at the end of the travel cost study part:
 
     \begin{itemize}
     \item T2.1\label{hyp-T2.1.}  Affects the reported number of trips (e.g. mean and distribution).
@@ -151,25 +163,25 @@ Second, we want to investigate several methodical questions that are inherent to
 -   **Hypothesis T5**\label{hyp-T5}: Provision of feedback on how the reported number of trips translates to average frequency of visits before asking the respondents
 
 
-**Example for reference back to Hypothesis**
 
-Testing \hyperref[hyp-M1a]{\textbf{Hypothesis M1\ref*{hyp-M1a}a}}, we want to analyze...
-
-Testing \textbf{\hyperref[hyp-1]{Hypothesis \ref*{hyp-1}}}, we want to analyze...
 
 ## Publication strategy
 
-**The large dataset cannot be summarized and analyzed in one single paper. For different research questions, we plan to write different papers. The papers are listed here:**
+*The large dataset cannot be summarized and analyzed in one single paper. For different research questions, we plan to write different papers. Despite our efforts to attain a clear-cut publication strategy, we note that some of the papers may turn out to not be feasable, while other paper ideas may emerge after the study has been conducted. Acknowledging the benefits of pre-registrations, we will not commit to the pre-registered papers only and leave room for new paper ideas. Among other things, this is due to the fact that more than 20 researchers from various scientific fields were involved in the survey and that in some disciplinces pre-registration is not common practice. The following list contains all papers we are currently planning to write.*
 
 \newcounter{paper} 
 \setcounter{paper}{0}
 
 \refstepcounter{paper}\thepaper.
-Spatial explicit valuation of natural capital in Germany and its transferability: Implications for policy and benefit transfers
+Spatial explicit valuation of natural capital in Germany and its transferability: Implications for policy and benefit transfers 
 
--   In this paper, we estimate a spatial explicit utility function to capture local willingness to pay values for landscape changes. We derive a marginal willingness to pay function that contains spatial and socio-demographic variables. The willingness to pay function allows us to predict marginal willingness to pay on high resolution spatial units. 
+-   The paper serves as the main paper to analyze the choice experiment data of the survey.
+-   We estimate a spatial explicit utility function to capture local willingness to pay values for landscape changes.
+-   We derive a marginal willingness to pay function that contains spatial and socio-demographic variables. The willingness to pay function allows us to predict marginal willingness to pay on high resolution spatial units. 
 -   Having a large set of observed values, we test how the marginal willingness to pay function predicts local marginal willingness to pay. 
 -   We use several different utility specifications (quadratic, logarithmic, Cox-Box) and different predictor variables to empirically identify the best specification in terms of a) model fit and b) predictive power.
+- Related to Hypotheses \hypref{hyp-1} , \hypref{hyp-2}, \hypref{hyp-3}, \hypref{hyp-4}, \hypref{hyp-5}
+
 
 \refstepcounter{paper}\thepaper.
 The effect of scope and distance on stated preferences
@@ -177,15 +189,20 @@ The effect of scope and distance on stated preferences
 -   The literature has impressively shown a lack of sensitivity to scope of stated preferences, while distance to the good to be valued plays a critically role in explain stated preferences. 
 -   This paper investigates the effects of distance and scope simultaneously in a between-sample and within sample experiment. 
 -   Scope is defined as the actual amount of the good to be valued, while distance is defined as the distance to the good to be valued as well as the quantity within distance.
+-  Relates to Hypotheses \hypref{hyp-3}, \hypref{hyp-dist} \hypref{hyp-M1}, \hypref{hyp-M3} 
 
 \refstepcounter{paper}\thepaper.
-Estimating the economic value of recreation in natural environments using travel costs: The effects of ...
-and ...
+Estimating the economic value of recreation in natural environments using travel costs
+
+-  The paper analyses the travel cost part of the survey and investigates the methodical research questions related to travel cost.
+
+-  Relates to Hypotheses \hypref{hyp-recall} to \hypref{hyp-T5}
 
 \refstepcounter{paper}\thepaper.
 The impact of nature relatedness (NR) and health/wellbeing on the economic value of natural capital
 
--	 In this interdisciplinary article, we analyse the interplay between psychological variables and the willingness to pay for natural goods and services. We estimate a structural equation model explaining the relationships between NR using a scale developed by @Nisbet2013, WTP and health/wellbeing. Our goal is to identify society characteristics that are relevant for the success of, and willingness to invest in nature conservation efforts.
+-	 In this interdisciplinary article, we analyse the interplay between psychological variables and the willingness to pay for natural goods and services. We estimate a structural equation model explaining the relationships between NR using a scale developed by @Nisbet2013, WTP and health/wellbeing. 
+-  The goal is to identify society characteristics that are relevant for the success of, and willingness to pay for nature conservation efforts.
 - 	People with high NR derive higher utility from nature conservation efforts and are thus more likely to exhibit higher WTP in our study.
 -	 Higher NR predicts better psychological and physical wellbeing. Possible pathways for this effect include increased physical activity outdoors, stress reduction and attention restoration as well as the promotion of social interactions.
 -	 Higher wellbeing is associated with higher WTP for nature conservation. Mechanisms might be a higher utility from protection efforts, which has been shown in consumer behaviour in reaction to carbon labelling on products. Another pathway might be a subjective feeling of job security, based on good health, leading to a higher willingness to commit to the burden of  longer-term investments.
@@ -194,35 +211,65 @@ The impact of nature relatedness (NR) and health/wellbeing on the economic value
 
 
 \refstepcounter{paper}\thepaper.
-Left-right bias and ordering effects (@Nino\`: hier vielleicht Pierre und Romain fragen ob die bock haben mitzumachen, die kennen die Literature ganz gut.)
+Left-right bias and ordering effects in choice experiments
 
--   Several papers have shown that the order of attributes and alternative affect choices in a stated preference survey...
+-   Several papers have shown that the order of attributes and alternative affect choices in a stated preference survey.
+
+- We investigate this issue by making use of different split samples that varied the order of alternatives and the order of attributes.
+
+- We analyze the data using non-parametric tests of choices based on the split samples
+
+- We compare willingness to pay between the split samples using separate conditional logit and mixed logit models for each split sample and joint conditional and mixed mixed logit models with interactions between attributes and split samples.
 
 \refstepcounter{paper}\thepaper.
-Life satisfaction ...
-i have no idea ...
-how satisfied are people with their lives in natural capital rich areas/Maybe: The effects of natural capital on human well-being ?
+Life satisfaction and Natural Capital
+
+- We investigate how stated life satisfaction and perceived mental and physical health is related to the endowment of natural capital. 
+
+- We use the amount of natural protected areas in the proximite area of the respondent and the share of high nature value farmland on agricultural land as our main proxis for natural capital.
+
+- We use more spatial variables including distances and socio-demographic variables to explain life satisfaction.
+
+- We estimate willingness to pay by dividing the coefficient of our natural capital proxy by the coefficient of the respondents (logged) income.
+
+- We use measures of fit to identify the best model fit.
 
 \refstepcounter{paper}\thepaper.
 Comparison of methods to estimate the implicit price of natural capital: Choice experiments, travel cost and life satisfaction
 
+- Based on the results from the three valuation approaches in this survey, we compare welfare measures derived by these approaches. 
+
+- We derive a theoretical model that can be used by the three approaches similarly to derive welfare measures.
+
+- Theoretically, we would expect similar results, but this has often not be the case in the empirical literature. 
+
 \refstepcounter{paper}\thepaper.
 The effect of the distribution of costs on willingness to pay for natural capital
 
--   Despite the fact that people are willing to give up income in exchange for a better natural environment, several people state not to pay conditional on the actual distribution of the costs. Costs can be distributed in various ways. Richer people can be asked to pay more than poorer people, everyone can pay the same, those who benefit most can pay more, and those who create more damage pay more. This paper explores the acceptance of an individual payment for improvements on natural capital conditional on how the costs are distributed. We set up a theoretical model that models rejection of a specific payment as an argument in the utility function.
+-   Despite the fact that people are willing to give up income in exchange for a better natural environment, several people state not to pay conditional on the actual distribution of the costs. -  Costs can be distributed in various ways. Richer people can be asked to pay more than poorer people, everyone can pay the same, those who benefit most can pay more, and those who create more damage pay more. 
+
+-  This paper explores the acceptance of an individual payment for improvements on natural capital conditional on how the costs are distributed. 
+
+-  We set up a theoretical model that models rejection of a specific payment as an argument in the utility function.
 
 \refstepcounter{paper}\thepaper.
 Germany's biodiversity valued at market prices
 
--   Biodiversity is conceptualized in the form of biotope value points. This article delves into the markets for biodiversity, examining how transaction prices relate to subjective willingness to pay and welfare considerations. The authors therefore combine price estimates per biotope value point obtained from an expert survey of the ValuGaps research project with estimates from the survey described hereafter. The goal of the research is to translate biotope valuation methods into the standardized framework of Germany's Federal Compensation Ordinance in order to make an intent at assessing the overall value of German biotopes and habitats at market prices. The findings inform environmental economic accounting, policy scenario development, project planning, life cycle assessments, and corporate natural capital assessments. The paper also evaluates the methodology's potential for application beyond Germany, suggesting its broader relevance and utility in biodiversity valuation globally.
+-   Biodiversity is conceptualized in the form of biotope value points. The paper delves into the markets for biodiversity, examining how transaction prices relate to subjective willingness to pay and welfare considerations. 
 
-# Part B: Experimental Design {.unnumbered}
+-  We therefore combine price estimates per biotope value point obtained from an expert survey of the ValuGaps research project with estimates from the survey described hereafter. 
+
+-  The goal of the research is to translate biotope valuation methods into the standardized framework of Germany's Federal Compensation Ordinance in order to make an intent at assessing the overall value of German biotopes and habitats at market prices. 
+
+-  The findings inform environmental economic accounting, policy scenario development, project planning, life cycle assessments, and corporate natural capital assessments. The paper also evaluates the methodology's potential for application beyond Germany, suggesting its broader relevance and utility in biodiversity valuation globally.
+
+# Part B: The survey in detail {.unnumbered}
 
 ## Data and Experimental Setup \label{data-exp-setup}
 
-The sample is a random sample of the adult population in Germany with representative quotas for age and gender, and additional soft quotas for income and region. The main quotas are replicated within the split samples. We will start the data collection in Germany with a sample size of N = 15,000. The sample comes from different panels from market research institutes in Germany.
+The sample is a random sample of the adult population in Germany with representative quotas for age and gender, and additional soft quotas for income and region. The main quotas are replicated within the split samples. We aim for a sample size of N = 15,000. The sample comes from different panels from market research institutes in Germany.
 
-We used simulations to determine the minimum required sample size to derive a power of 80% for a simple discrete choice conditional logit model with a specification assumed from earlier studies [@Sagebiel2017]. The sample size was 3000. As the survey was financed by a research project, we tried to maximize the sample size for the given project budget. We ended up with a total sample of N = 15,000.
+ As the survey was financed by a research project, we tried to maximize the sample size for the given project budget which allowed us for a total sample of N = 15,000. For the choice experiment, we used simulations to test whether statistical design can deliver unbiased estimates. We used simple discrete choice conditional logit model with a specification assumed from earlier studies [@Sagebiel2017]. The results of the simulation are in the appendix and the code (in R) is available on github.
 
 We note that not all parts in the survey benefit from the full sample. As we describe more thoroughly in subsections \textbf{\hyperref[subsec-que-structure]{Questionnaire: Structure}} and \textbf{\hyperref[split-samples]{Split Samples for Between-Subject experiments}}, some survey parts are not shown to all respondents. For example, the travel cost method is only shown to 10,000 respondents while the behavioural experiment is shown to the remaining 5,000 respondents.
 
@@ -253,43 +300,44 @@ The initial pre-test indicated that the data collected with the levels of area e
 We also included an open question in the survey, enabling respondents to provide direct feedback on their decision-making processes in the choice sets. This optional question was presented to respondents after they had completed all ten choice sets. A similar number of responses indicated that personal factors, such as the current state of their immediate surroundings or general support for nature protection, influenced their decisions, as those that mentioned organisational factors, such as the payment method, public decision-making, and unintended side effects. The largest part of responses listed the attributes of cost, area size, accessibility and visibility, and proximity as the determining factors in the decision-making process. Of these, approximately half of the respondents indicated that they primarily considered the cost or a cost/benefit trade-off. \newline
 
 **Soft launch**\
-For the final data collection we started the survey with a soft launch with a target sample size of N = 500 to test whether all changes made after the two rounds of pretests have been implemented correctly. In this process we discovered a coding mistake in our R code used to calculate the status quo endowments of the respondents. Specifically, we had a mistake in the way how we calculated the amount of protected areas which resulted in lower than actual values for the endowment with protected areas, particular in regions with many small patches of protected areas. We changed the R code accordingly for the rest of the data collection.
+For the final data collection we started the survey with a soft launch with a sample size of N = 1000 to test whether all changes made after the two rounds of pretests have been implemented correctly. In this process we discovered a coding mistake in our R code used to calculate the status quo endowments of the respondents. Specifically, we had a mistake in the way how we calculated the amount of protected areas which resulted in lower than actual values for the endowment with protected areas, particular in regions with many small patches of protected areas. We changed the R code accordingly for the rest of the data collection. Further, we found a coding issue in the setup of the split sample for the equity treatments which we also corrected.
+The data from the soft launch will not be used for the main analyses, but used for robustness checks. 
 
 ## Questionnaire: Structure \label{subsec-que-structure}
  
-The survey is divided into six progressively structured sections, using simplified language and a user-friendly design. To enhance information absorption, we reduced the content on each screen and included bullet points and infoboxes where feasible. Graphical illustrations are used to explain key concepts, while images and examples aim to reflect regional diversity in order to improve understanding and relevance for a broader audience. Presenting additional information in the form of foldable text elements allows interested readers to clarify unresolved questions about concepts and content, while allowing others to move on more quickly. In this way, we aim to reduce drop-out rates due to time constraints and to provide a supportive environment for those who demand additional information.
+The survey is divided into six progressively structured sections, using simplified language and a user-friendly design. To enhance information absorption, we reduced the content on each screen and included bullet points and infoboxes where feasible. Graphical illustrations are used to explain key concepts, while images and examples aim to reflect regional diversity in order to improve understanding and relevance for a broader audience. Presenting additional information in the form of foldable text elements allows interested respondents to clarify unresolved questions about concepts and content, while allowing others to move on more quickly. In this way, we aim to reduce drop-out rates due to time constraints and to provide a supportive environment for those who demand additional information.
 
 
 The core of the valuation study is a discrete choice experiment. A choice experiment is a commonly used, yet highly contested, method in environmental economic valuation. A large literature discusses its validity and provides best practices and conditions for valid preference elicitation and welfare measurement. One purpose of this pre-analysis plan is that we want to make sure that we have accounted for all necessary conditions and already discuss potential challenges regarding validity before data collection. The choice experiment is complemented with two other economic valuation approaches – travel cost method and life satisfaction. These approaches are based on the same theoretical framework as choice experiments and should - in theory - provide similar results. A comparison of the results of the three methods allows us to investigate the validity of our value estimates. \newline
 
 **Introduction and first questions**\
-The first part presents the core topic of the survey and the personal information that is required from the survey participants. Consent for the collection and processing of personal data as well as compliance with the population representation quota of the survey are required for inclusion. If participants do not meet these criteria or refuse to give consent, they will be screened out before reaching the first information block.\
+The first part presents the core topic of the survey and the personal information that is required from the survey respondents. Consent for the collection and processing of personal data as well as compliance with the population representation quota of the survey are required for inclusion. If participants do not meet these criteria or refuse to give consent, they will be screened out before reaching the first information block.\
 The second part provides an introductory overview of the relationship between agricultural use and biodiversity. Illustrative sample images and text elements present the concepts of high nature value farmland and protected areas in an accessible and intelligible manner. The information elements are interrupted by content-related follow-up questions, in order to enhance reader engagement and attention.\newline
 
 **Life satisfaction**\
 To analyze the relationship between natural capital and life satisfaction we include a question about life satisfaction at the beginning of the survey, where we ask the respondents “Overall, how satisfied are you with your life right now?”. Respondents can answer on a scale from 0 to 10 and also have the option to not answer the question. Additionally we ask questions about physical and mental health of the respondents on the next page. Together with the information from the other socio-demographic questions we are able to run regressions of life satisfaction on socio-demographic and natural capital variables. Using this regression results we can calculate an income equivalent change in natural capital while keeping life satisfaction constant, which can be interpreted as the willingness to pay for natural capital changes.\newline
 
-**Choice Set**\
-The third part of the survey introduces respondents to key attributes of the upcoming DCE. This section outlines potential landscape modifications, the financial framework, and the structure of the hypothetical political process involved in the proposed project.
-The fourth part of the study consists of a discrete choice experiment in which participants are asked to choose between two options: the status quo or a proposed landscape modification. Each choice is accompanied by two interactive maps, illustrating the spatial distribution of the respective areas, and a choice table detailing relevant information. Participants must select their preferred option, and this process is repeated across ten consecutive pages, with each page presenting a unique proposal. The proposals are randomly selected from a pre-generated pool of 1500 choice sets, and differ with respect to the area size and distribution of the planned extension of high nature value and protected areas, their visibility or accessibility, respectively, and the related mandatory annual payment.\newline 
+**Choice Experiment**\
+The third part of the survey introduces respondents to key attributes of the upcoming choice experiment. This section outlines potential landscape modifications, the financial framework, and the structure of the hypothetical political process involved in the proposed project as well as an interactive illustration of hectar sizes according to the proposed landscape changes.
+The fourth part of the study consists of a discrete choice experiment in which participants are asked to choose between two options: the status quo or a proposed landscape modification. Each choice is accompanied by two interactive maps, illustrating the spatial distribution of the respective areas, and a choice table detailing relevant information. Participants must select their preferred option, and this process is repeated across ten consecutive pages, with each page presenting a unique proposal. The proposals are randomly selected per respondent from a full factorial of 1500 choice sets, and differ with respect to the area size and distribution of the planned extension of high nature value and protected areas, their visibility or accessibility, respectively, and the related mandatory annual payment.\newline 
 
 **Follow-up questions**\
-In the literature on stated preference studies, respondents who categorically reject the hypothetical scenario presented despite they actually benefit from the scenario (willingness to pay > 0) are referred as protesters.  The decisions of these protesters are likely to be driven by motives other than the evaluation of the presented attributes of the choice sets. The correct identification of protesters is important because their inclusion or exclusion from the analysis can affect welfare estimates [@Strazzera2003]. In order to distinguish protesters from respondents whose decisions genuinely reflect their preferences, a threshold value of rejections has been implemented. If a respondent rejects at least seven of the ten proposed landscape modifications presented, they are redirected to answer a subset of questions on the subsequent page, after the final choice set, in order to elicit further information regarding their general opposition to the project presented. These five questions ask about their general views on the payment instrument, whether they felt there was a lack of information, or whether they objected to the way the questions were posed. The questions are used to classify the respondents into protesters and “true WTP <= zero” respondents. After this page, these respondents continue with the questionnaire. On the next page, all respondents receive the same follow-up questions about the general underlying motivations behind their choices in the choice experiment.
+In the literature on stated preference studies, respondents who categorically reject the hypothetical scenario presented despite they actually benefit from the scenario (willingness to pay > 0) are referred as protesters. The decisions of these protesters are likely to be driven by motives other than the evaluation of the presented attributes of the choice sets. The correct identification of protesters is important because their inclusion or exclusion from the analysis can affect welfare estimates [@Strazzera2003]. In order to distinguish protesters from respondents whose decisions genuinely reflect their preferences, a threshold value of rejections has been implemented. If a respondent rejects at least seven of the ten proposed landscape modifications presented, they are redirected to answer a subset of questions on the subsequent page, after the final choice set, in order to elicit further information regarding their general opposition to the project presented. These five questions ask about their general views on the payment instrument, whether they felt there was a lack of information, or whether they objected to the way the questions were posed. The questions are used to classify the respondents into protesters and “true WTP <= zero” respondents. After this page, these respondents continue with the questionnaire. On the next page, all respondents receive the same follow-up questions about the general underlying motivations behind their choices in the choice experiment.
 
-This follow-up page consists of a series of matrix questions to be answered on a 5-point Likert scale. The questions are designed to elicit information about the respondents' general attitudes and considerations regarding the consequentiality of the survey. Respondents are then asked for their opinion on the distribution of costs between households. At the end of this part of the survey, we ask the respondents in a non-obligatory open question for any general comments on their response behavior in the previous sets of choices. The responses we collect at this point can complement the interpretation of the DCE data and potentially form the basis of independent qualitative research.
+This follow-up page consists of a series of matrix questions to be answered on a 5-point Likert scale. The questions are designed to elicit information about the respondents' general attitudes and considerations regarding the consequentiality of the survey. Respondents are then asked for their opinion on the distribution of costs between households. At the end of this part of the survey, we ask the respondents in a non-obligatory open question for any general comments on their response behavior in the previous sets of choices. The responses we collect at this point can complement the interpretation of the choice experiment data and potentially form the basis of independent qualitative research.
 
 Taking the data from the soft-launch sample, 98[^3] out of 147 comments were related to the content of the survey. The predominant self-reported drivers for voting for or against a proposed landscape change can be categorized into three groups: The presented attributes, the organisational aspects and the respondents' general personal views on nature conservation:
 
 [^3]: Responses that touched on two or three issues were assigned to each of these categories. For this reason, the total does not add up to the sum of the individual categories.
 
--   Among the survey attributes the most frequently mentioned was cost (32), as suggested by preliminary data analysis of the DCE data from the soft launch sample. Respondents cited either the overall cost as critical, the cost in relation to the budget constraints they face, or in terms of a cost/benefit trade-off. Sixteen comments mentioned the size and dispersion of the areas to be created, the latter including the proximity of the areas to their homes. Accessibility or visibility played only a minor role.
+-   Among the survey attributes the most frequently mentioned was cost (32), as suggested by preliminary data analysis of the choice experiment data from the soft launch sample. Respondents cited either the overall cost as critical, the cost in relation to the budget constraints they face, or in terms of a cost/benefit trade-off. Sixteen comments mentioned the size and dispersion of the areas to be created, the latter including the proximity of the areas to their homes. Accessibility or visibility played only a minor role.
 
 -   With regard to the organizational aspects, twenty-two respondents firmly opposed any additional taxes or levies, often accompanied by the statement that the current tax burden on individuals is already high enough and should be borne by the government. Another six responses alluded to a general distrust of politics. Another seven responses mentioned the treatments \textbf{\hyperref[split-samples]{duration of the payment period}} and \textbf{\hyperref[equity]{distribution of the payment}}.
 
 -   Fourteen respondents explained their vote either by their personal relationship to nature, e.g. general support for biodiversity protection, or by pre-existing conditions around them, e.g. the status quo of nature in their region. In addition, eighteen responses made only general comments about personal support or opposition, of which only two were generally opposed to the project.  \newline
 
 **NR6, CV, and Travel Cost**\
-In the fifth part of the study, the participants are divided into two groups, which then receive different questions. Subsequently, one-third of the participants engage in an experiment examining distributional decisions between financial and environmental budget appropriation. The remaining two-thirds of participants are first required to complete the six-item questions of the nature-relatedness scale [@Nisbet2013]. The Nature Relatedness scale (NR6) is a 6-item self-report measure, allowing assessment of individual attitudes towards nature in the form of a“self” and “experience” scale. It is a short version of the original 21-item Nature Relatedness Scale. They are then asked to indicate their willingness to pay for a general programme that seeks to fulfil the EU biodiversity goals, using a contingent valuation question. At the conclusion of this section, participants are presented with questions regarding travel costs associated with their recreational visits to local environmental sites.  Between the pre-tests and the soft launch we extended the contents of the travel cost part and implemented four mutually independent treatments. The format of the questions in the travel cost study part will depend on the treatment group to which the respondent is assigned. The questions will inquire about the number of visits to local environmental sites and whether the interactive map is presented at the beginning and displayed on the following screens, or only at the end of the section. The four treatments are as follows: 1, 2, 3 and 4 (see the \textbf{\hyperref[travel-cost]{travel cost}} subsection for details). Approximately 50% of respondents will be randomly assigned to each of the two groups within each treatment. This results in approximately 6.25% of respondents being exposed to each of the 16 possible combinations of the survey. \newline
+In the fifth part of the study, the participants are divided into two groups, which then receive different questions. Subsequently, one-third of the participants engage in an experiment examining distributional decisions between financial and environmental budget appropriation. The remaining two-thirds of participants are first required to complete the six-item questions of the Nature-Relatedness scale [@Nisbet2013]. The Nature Relatedness scale (NR6) is a 6-item self-report measure, allowing assessment of individual attitudes towards nature in the form of a “self” and “experience” scale. It is a short version of the original 21-item Nature Relatedness Scale. After the NR6 questions, respondents are asked to indicate their willingness to pay for a general programme that seeks to fulfil the EU biodiversity goals, using a contingent valuation question. At the conclusion of this section, participants are presented with questions regarding travel costs associated with their recreational visits to local environmental sites.  Between the pre-tests and the soft launch we extended the contents of the travel cost part and implemented four mutually independent treatments. The format of the questions in the travel cost study part will depend on the treatment group to which the respondent is assigned. The questions will inquire about the number of visits to local environmental sites and whether the interactive map is presented at the beginning and displayed on the following screens, or only at the end of the section. The four treatments are described in the \textbf{\hyperref[travel-cost]{travel cost}} subsection. Approximately 50% of respondents will be randomly assigned to each of the two groups within each treatment. This results in approximately 6.25% of respondents being exposed to each of the 16 possible combinations of the survey. \newline
 
 **Socio-economic data**\
 In the concluding section of the survey, respondents are presented with a series of conventional questions about their socio-economic circumstances, including educational background, employment status, household income, household size, current political party preference, and their living situation. Additionally, we ask respondents if they are private forest owners. If they are, we further ask them about the size of the private forest they own and how much wood they annually use from this forest.
@@ -320,15 +368,14 @@ The sequences are as follows:
 
 It should be noted that rotation of attributes occurs between subjects, i.e. each respondent has the same attribute order in all choice sets.
 To further facilitate readability for the respondent, the attributes for HNV areas (3 and 4), namely size and visibility, and for protected areas (1 and 2), namely size and accessibility, are rotated only pairwise and maintain a consistent neighboring order across all four groups.
-Attribute 5 is the cost of the yearly payment.
-Attribute 5 is always either shown first or last to ensure visibility of the cost attribute.\newline
+Attribute 5 is the yearly payment to the respondent and is always either shown first or last to ensure visibility of the cost attribute.\newline
 
 **Multiple choice questions**\
 We follow best practice by randomizing the order of questions within a matrix of questions.
 This includes an attention check question, where the question asks respondents to select a particular option on a Likert scale.
 Similarly, we randomize the order of answers for each question in single and multiply choice questions.
 
-## Split Samples for Between-Subject experiments \label{split-samples}
+## Split Samples for Between-Subject Experiments \label{split-samples}
 
 **Duration of the payment period**\
 In order to examine whether the duration of the mandatory annual payment has an impact on the decision of citizens to approve a project, the entire sample was divided into four equal groups.
