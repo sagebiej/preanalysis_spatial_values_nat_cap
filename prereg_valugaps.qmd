@@ -267,7 +267,7 @@ Germany's biodiversity valued at market prices
 
 ## Data and Experimental Setup \label{data-exp-setup}
 
-The sample is a random sample of the adult population in Germany with representative quotas for age and gender, and additional soft quotas for income and region. The main quotas are replicated within the split samples. We aim for a sample size of N = 15,000. The sample comes from different panels from market research institutes in Germany.
+The survey sampling was conducted through the survey company SurveyEngine. The sample is a probabilistic sample of the adult population in Germany with representative quotas for age and gender, and additional soft quotas for income and region. The main quotas are replicated within the split samples. We aim for a sample size of N = 15,000. SurveyEngine collaborated with panel companies to recruit the respondents. The sample comes from different panels from market research institutes in Germany. SurveyEngine billed us around €5 for each survey participant counted as complete. The exact remuneration the respondents varied. Upon request, SurveyEngine informed us that these panel companies do not disclose the exact pay-out to the respondents, as it would partly reveal their internal cost structure. Furthermore, the actual pay-out made to respondents is dynamic, as are the internal costs, both of which are a function of factors determined by each panel. The method of payment also varies, as some panels pay respondents directly, while others offer vouchers or reward points that can be accumulated.
 
  As the survey was financed by a research project, we tried to maximize the sample size for the given project budget which allowed us for a total sample of N = 15,000. For the choice experiment, we used simulations to test whether statistical design can deliver unbiased estimates. We used simple discrete choice conditional logit model with a specification assumed from earlier studies [@Sagebiel2017]. The results of the simulation are in the appendix and the code (in R) is available on github.
 
@@ -437,22 +437,8 @@ Group 3B respondents  is not provided with such a calculation hint.
 Group 4B respondents will only be presented with the number of visits from their initial response and invited to verify or adjust the total number.
 
 
-# Part C: Estimation \label{estimation}
 
-## The rich data in the survey
 
-We think that for both attributes - protected area and high nature value farmland - the utility obtained from new areas depends on the individual endowment of the respondents. Therefore, we estimate models which allow for diminishing marginal utility or even negative marginal utility of those attributes depending on the respondent’s status quo. The different functional forms we want to consider are: Quadratic, Log, Log-Linear, Box-Cox and Linear (as baseline reference model). Additionally, we consider to estimate mixed forms of these models and to do model averaging. We will test for spatial autocorrelation and if necessary will either apply a spatial lag or spatial error model to account for it.
-
-We estimate separate models given the subpopulations of the sample generated from the splits defined in (B.6). If we use separate models in the final analysis depends on the split sample itself and the particular research questions.
-
-The survey allows for several methodical research questions, mostly implemented via research questions. In the following, we will list each research question separately:
-
-1. Scope Effects I
-2. Scope Effects II
-3. Duration of Payment
-4. Equity
-5. Left-Right Bias
-6. Attribute Randomisation
 
 ## Exclusion criteria
 
@@ -464,12 +450,11 @@ Respondents are excluded according to the following criteria:
 
 3. We exclude duplicate respondents by checking equal IP addresses and socio-demographic characteristics. If several respondents have the same IP addresses as well as age and gender they are excluded and only the first observation is kept.
 
-# References {.unnumbered}
 
-::: {#refs}
-:::
 
-# Appendix: Questions {.unnumbered}
+# A pre-registration template for Choice Experiments {.unnumbered}
+
+To provide more specific information on the choice experiment, we adapt a template which has been used for example here https://osf.io/vc8hq and https://osf.io/gbjh6. As some of the questions in the template are already answered in the main text, we will refer to the relevant chapters.
 
 \newcounter{que} 
 \setcounter{que}{0}
@@ -484,10 +469,11 @@ Respondents are excluded according to the following criteria:
     The survey is carried out online by the survey company SurveyEngine. The collaboration with SurveyEngine covered all development stages of the survey, including all pilot studies.
 
 -   **\refstepcounter{que}\theque. Motivate and describe your sampling approach. [Probabilistic sample, Convenience sample, stratified, clustered, quotas applied]** \newline
-    (/)
+    (see the \textbf{\hyperref[data-exp-setup]{Data and Experimental Setup}} subsection for details)
 
 -   **\refstepcounter{que}\theque. How did you incentivize your sample?** \newline
-    The survey company billed us around €5 for each survey participant counted as complete. The exact remuneration the respondents varied. The survey company SurveyEngine collaborated with panel companies to recruit the participants. Upon request, SurveyEngine informed us that these panel companies have no interest in disclosing the exact pay-out to the participant, as it would partly reveal their internal cost structure. Furthermore, the actual pay-out made to participants is dynamic, as are the internal costs, both of which are a function of factors determined by each panel.  The method of payment also varies, as some panels pay participants directly, while others offer vouchers or reward points that can be accumulated.
+(see the \textbf{\hyperref[data-exp-setup]{Data and Experimental Setup}} subsection for details)
+
 
 -   **\refstepcounter{que}\theque. How did you determine the sample size (e.g. power analysis)?** \newline 
     (see the \textbf{\hyperref[data-exp-setup]{Data and Experimental Setup}} subsection for details)
@@ -505,22 +491,23 @@ Respondents are excluded according to the following criteria:
     (see the \textbf{\hyperref[subsec-que-structure]{Questionnaire: Structure}} subsection for details)
     
 -   **\refstepcounter{que}\theque. List the number of alternatives per choice set, the number of choice sets in total and any blocks or random assignments if applicable.** \newline 
-    (see the \textbf{\hyperref[subsec-que-structure]{Questionnaire: Structure}} subsection for details)
+    The choice set consisted of one hypothetical alternative and one status quo alternative and five attributes with 5,2,5,3,10 levels. In the main study, we used a full factorial with random assignment.
     
 -   **\refstepcounter{que}\theque. How did you code your attributes in the design? [eg. linear, dummy, effects]** \newline 
-    In our experimental design we coded all attributes linearly.
+    In our experimental design we coded all attributes linearly except for visibility and accessibility which we coded with dummy variables.
 
 -   **\refstepcounter{que}\theque. Which socio-demographic and other case-specific variables do you need to test your hypotheses? Did you integrate socio-demographic and other case-specific variables in the design process, and if yes how?** \newline 
     (see the \textbf{\hyperref[subsec-que-structure]{Questionnaire: Structure}} subsection for details)
+    We need the actual status quo of respondents' places of residence (case-specific spatial variable) to estimate our envisioned models. However we did not include these variables in the design process.
 
 -   **\refstepcounter{que}\theque. Which assumptions on the utility function (or other decision-making rules) did you use to generate the design? [e.g. Random utility maximization, random regret minimization etc.]** \newline 
     We assume that people choice according to random utility maximization.
     
 -   **\refstepcounter{que}\theque. How did you create your experimental design? [orthogonal, eﬀicient, number of choice sets per person; labeled vs. unlabeled DCE etc.]** \newline 
-    (/)
+     In the main study, we used a full factorial of $5*2*5*3*10=1500$ alternatives. For the first pre-test we used an efficient design created with the R package spdesign with 100 alternatives and 10 blocks. For the second pre-test, we used a larger efficient design with 500 choice sets and a random assignment of 10 out of these 500 choice sets for each respondent. 
     
 -   **\refstepcounter{que}\theque. If eﬀicient design, which priors did you use, and how did you obtain them?** \newline 
-    (/)
+    For the first pre-test priors were roughly based on the results from the focus groups. The second pre-test used priors from the models estimated in the first pre-test. 
     
 -   **\refstepcounter{que}\theque. Did you test the design, e.g. with simulation (attach file)?** \newline 
     To control for potential design effects we simulated the results for our design with Monte-Carlo simulations in R. Since we assume that the respondents endowment is influencing their choices we incorporated it into the test of our designs. Therefore, we draw “fake” respondents weighted by population density and computed their individual endowments with protected areas and high nature value farmland as we do it in the survey.
@@ -539,14 +526,20 @@ Respondents are excluded according to the following criteria:
     (/)
 
 -   **\refstepcounter{que}\theque. Which discrete choice models do you plan to estimate? Describe your model specification (e.g. utility function to be estimated)**\newline
-    (see the \textbf{\hyperref[estimation]{Estimation}} section for details)
+    We think that for both attributes - protected area and high nature value farmland - the utility obtained from new areas depends on the individual endowment of the respondents. Therefore, we estimate models which allow for diminishing marginal utility or even negative marginal utility of those attributes depending on the respondent’s status quo. The different functional forms we want to consider are: Quadratic, Log, Log-Linear, Box-Cox and Linear (as baseline reference model). Additionally, we consider to estimate mixed forms of these models and to do model averaging. We will test for spatial autocorrelation and if necessary will either apply a spatial lag or spatial error model to account for it. We have outlined these specifications in the Appendix (Results from Pre-Tests and Soft Launch)
 
 -   **\refstepcounter{que}\theque. Do you control for unobserved and observed heterogeneity, if yes, how (e.g. interactions, membership function in latent class model?**\newline
     We control for unobserved and observed heterogeneity in preferences by estimating mixed logit models and latent class logit models and testing interactions with socio-demographic and/or spatially varying variables.
 
 
 -   **\refstepcounter{que}\theque. Do you estimate separate models for different groups?**\newline
-    (see the \textbf{\hyperref[estimation]{Estimation}} section for details)
+    To test methodical hypotheses which allow for testing of split samples, we use the following approaches: 
+    
+    1. We compare frequencies of choices using non-parametric tests
+    2. We estimate separate models for each split sample and compare estimated parameters and willingness to pay values with z-tests and Poe tests.
+    3. We estimate a pooled model with interaction terms between the attributes and split sample dummies. 
+    
+  Which approach we will eventually report in a paper depends on the specific case. However, we will always carry out all three approaches and report them in an online appendix.
 
 -   **\refstepcounter{que}\theque. If methodological research question, describe in detail how you test your methodical hypotheses**\newline
     (see the \textbf{\hyperref[estimation]{Estimation}} section for details)
@@ -561,7 +554,7 @@ Respondents are excluded according to the following criteria:
     (/)
 
 -   **\refstepcounter{que}\theque. Do you use any measures to enhance validity and reduce hypothetical bias? (e.g. cheap talk, consequentiality, budget reminder, quiz questions)**\newline
-    The potential influence of hypothetical bias is addressed by repeatedly emphasizing the possibility of implementation of an analogous approach to the presented hypothetical referendum in a real-world context. Additionally, participants are regularly reminded that the results of the survey will be used to inform political decision-making, highlighting the potential influence their responses could have on actual policy outcomes. On each question set, an accompanying remark highlights the fact that respondents should vote in favor of the proposed measure only if they themselves are willing to pay the specified amount for the given period of time.
+    The potential influence of hypothetical bias is addressed by repeatedly emphasizing the possibility of implementation of an analogous approach to the presented hypothetical referendum in a real-world context. Additionally, respondents are regularly reminded that the results of the survey will be used to inform political decision-making, highlighting the potential influence their responses could have on actual policy outcomes. On each question set, an accompanying remark highlights the fact that respondents should vote in favor of the proposed measure only if they themselves are willing to pay the specified amount for the given period of time.
     
 -   **\refstepcounter{que}\theque. Which follow up questions do you use?**\newline
     (see the \textbf{\hyperref[subsec-que-structure]{Questionnaire: Structure}} subsection for details)
@@ -574,3 +567,9 @@ Respondents are excluded according to the following criteria:
     
 -   **\refstepcounter{que}\theque. Anything else you want to preregister?**\newline
     (/)
+    
+    
+# References {.unnumbered}
+
+::: {#refs}
+:::    
