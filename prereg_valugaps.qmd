@@ -116,24 +116,34 @@ Second, we want to investigate several methodical questions, inherent to the cur
 
 ### Methodological hypotheses - Choice Experiment
 
--   **Hypothesis M1** \refstepcounter{hyp}\thehyp \label{hyp-M1}: The scope of the changes in natural capital is influencing the values of natural capital.
+\newcounter{mhyp}
 
--   **Hypothesis M2** \label{hyp-M2}: The distributional consequences of the payment vehicle have a significant impact on the elicited values of natural capital.
 
--   **Hypothesis M3**\label{hyp-M3}: Derived natural capital values depend more on the relative than the absolute attribute levels, when comparing two different vectors of attribute levels.
+\renewcommand{\themhyp}{M\arabic{mhyp}}
+\setcounter{mhyp}{0}
 
--   **Hypothesis M4**\label{hyp-M4}: If the duration of the payment period increases, respondents are less likely to vote in favor of increases in natural capital.
+-   **Hypothesis** \refstepcounter{mhyp}\themhyp \label{hyp-M1}: The scope of the changes in natural capital is influencing the values of natural capital.
+
+-   **Hypothesis** \refstepcounter{mhyp}\themhyp \label{hyp-M2}: The distributional consequences of the payment vehicle have a significant impact on the elicited values of natural capital.
+
+-   **Hypothesis**\refstepcounter{mhyp}\themhyp \label{hyp-M3}: Derived natural capital values depend more on the relative than the absolute attribute levels, when comparing two different vectors of attribute levels.
+
+-   **Hypothesis** \refstepcounter{mhyp}\themhyp \label{hyp-M4}: If the duration of the payment period increases, respondents are less likely to vote in favor of increases in natural capital.
+
+-   **Hypothesis** \refstepcounter{mhyp}\themhyp \label{hyp-M5}: The order of the alternatives and the order of the attributes do not affect choice patterns and willingness to pay values.
 
 
 ### Methodological hypotheses - Travel cost study
 
-\setcounter{hyp}{0}
+\newcounter{thyp}
+\renewcommand{\thethyp}{T\arabic{thyp}}
+\setcounter{thyp}{0}
 
--   **Hypothesis T0**\label{hyp-recall}: For recreation demand (travel cost) approaches, utilization of recall-targeted survey tools (i.e., interactive maps, timeline graph, hints for rule-based calculations and feedback on reported numbers) have a significant impact on the reported number of visits and their characteristics as well as on the resulting welfare estimates.
+-   **Hypothesis** \thethyp \label{hyp-recall}: For recreation demand (travel cost) approaches, utilization of recall-targeted survey tools (i.e., interactive maps, timeline graph, hints for rule-based calculations and feedback on reported numbers) have a significant impact on the reported number of visits and their characteristics as well as on the resulting welfare estimates.
 
--   **Hypothesis T1**\label{hyp-map}: Provision of an interactive map at the beginning of the travel cost study part affects the location of the most frequently visited environmental site the respondents describe (e.g. distance from the place of residence) compared to provision of a map at the end of the travel cost study part.
+-   **Hypothesis** \refstepcounter{thyp}\thethyp \label{hyp-map}: Provision of an interactive map at the beginning of the travel cost study part affects the location of the most frequently visited environmental site the respondents describe (e.g. distance from the place of residence) compared to provision of a map at the end of the travel cost study part.
 
--   **Hypothesis T2**\label{hyp-map2}: Provision of an interactive map at the beginning of the travel cost study part and subsequent display of selected location on the map in trip-number and trip-information elicitation questions compared to provision of a map at the end of the travel cost study part:
+-   **Hypothesis** \refstepcounter{thyp}\thethyp \label{hyp-map2}: Provision of an interactive map at the beginning of the travel cost study part and subsequent display of selected location on the map in trip-number and trip-information elicitation questions compared to provision of a map at the end of the travel cost study part:
 
     \begin{itemize}
     \item T2.1\label{hyp-T2.1.}  Affects the reported number of trips (e.g. mean and distribution).
@@ -142,7 +152,7 @@ Second, we want to investigate several methodical questions, inherent to the cur
     \item T2.4\label{hyp-T2.4.}  Affects the resulting welfare measures.
     \end{itemize}
 
--   **Hypothesis T3**\label{hyp-T3}: Provision of hints for rule-based calculations of past trips compared to no hints:
+-   **Hypothesis** \refstepcounter{thyp}\thethyp \label{hyp-rulebased}: Provision of hints for rule-based calculations of past trips compared to no hints:
 
     \begin{itemize}
     \item T3.1\label{hyp-T3.1.}  Affects the reported number of visits (e.g. mean and distribution).
@@ -151,7 +161,7 @@ Second, we want to investigate several methodical questions, inherent to the cur
     \item T3.4\label{hyp-T3.4.}  Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
     \end{itemize}
 
--   **Hypothesis T4**\label{hyp-T4}: Provision of the timeline graph in the visit number elicitation question compared to no timeline graph:
+-   **Hypothesis** \refstepcounter{thyp}\thethyp \label{hyp-T4}: Provision of the timeline graph in the visit number elicitation question compared to no timeline graph:
 
     \begin{itemize}
     \item T4.1\label{hyp-T4.1.}  Affects the reported number of visits (e.g. mean and distribution).
@@ -160,14 +170,14 @@ Second, we want to investigate several methodical questions, inherent to the cur
     \item T4.4\label{hyp-T4.4.}  Affects the probability of respondents readjusting their reported number of trips when asked whether the number is correct.
     \end{itemize}
 
--   **Hypothesis T5**\label{hyp-T5}: Provision of feedback on how the reported number of trips translates to average frequency of visits before asking the respondents
+-   **Hypothesis** \refstepcounter{thyp}\thethyp \label{hyp-T5}: Provision of feedback on how the reported number of trips translates to average frequency of visits before asking the respondents
 
 
 
 
 ## Publication strategy
 
-*The large dataset cannot be summarized and analyzed in one single paper. For different research questions, we plan to write different papers. Despite our efforts to attain a clear-cut publication strategy, we note that some of the papers may turn out to not be feasable, while other paper ideas may emerge after the study has been conducted. Acknowledging the benefits of pre-registrations, we will not commit to the pre-registered papers only and leave room for new paper ideas. Among other things, this is due to the fact that more than 20 researchers from various scientific fields were involved in the survey and that in some disciplinces pre-registration is not common practice. The following list contains all papers we are currently planning to write.*
+*The large dataset cannot be summarized and analyzed in one single paper. For different research questions, we plan to write different papers. Despite our efforts to attain a clear-cut publication strategy, we note that some of the papers may turn out to not be feasable, while other paper ideas may emerge after the study has been conducted. Acknowledging the benefits of pre-registrations, we will not commit to the pre-registered papers only and leave room for new paper ideas. Among other things, this is due to the fact that more than 20 researchers from various scientific fields were involved in the survey and that in some disciplines pre-registration is not common practice. The following list contains all papers we are currently planning to write.*
 
 \newcounter{paper} 
 \setcounter{paper}{0}
@@ -180,7 +190,7 @@ Spatial explicit valuation of natural capital in Germany and its transferability
 -   We derive a marginal willingness to pay function that contains spatial and socio-demographic variables. The willingness to pay function allows us to predict marginal willingness to pay on high resolution spatial units. 
 -   Having a large set of observed values, we test how the marginal willingness to pay function predicts local marginal willingness to pay. 
 -   We use several different utility specifications (quadratic, logarithmic, Cox-Box) and different predictor variables to empirically identify the best specification in terms of a) model fit and b) predictive power.
-- Related to Hypotheses \hypref{hyp-1} , \hypref{hyp-2}, \hypref{hyp-3}, \hypref{hyp-4}, \hypref{hyp-5}
+- Related to Hypotheses \hypref{hyp-1}, \hypref{hyp-2}, \hypref{hyp-3}, \hypref{hyp-4}, \hypref{hyp-5}
 
 
 \refstepcounter{paper}\thepaper.
@@ -221,6 +231,8 @@ Left-right bias and ordering effects in choice experiments
 
 - We compare willingness to pay between the split samples using separate conditional logit and mixed logit models for each split sample and joint conditional and mixed mixed logit models with interactions between attributes and split samples.
 
+- Related to Hypotheses \hypref{hyp-M5}
+
 \refstepcounter{paper}\thepaper.
 Life satisfaction and Natural Capital
 
@@ -252,6 +264,8 @@ The effect of the distribution of costs on willingness to pay for natural capita
 
 -  We set up a theoretical model that models rejection of a specific payment as an argument in the utility function.
 
+- Related to Hypotheses \hypref{hyp-M2}
+
 \refstepcounter{paper}\thepaper.
 Germany's biodiversity valued at market prices
 
@@ -267,7 +281,7 @@ Germany's biodiversity valued at market prices
 
 ## Data and Experimental Setup \label{data-exp-setup}
 
-The survey sampling was conducted through the survey company SurveyEngine. The sample is a probabilistic sample of the adult population in Germany with representative quotas for age and gender, and additional soft quotas for income and region. The main quotas are replicated within the split samples. We aim for a sample size of N = 15,000. SurveyEngine collaborated with panel companies to recruit the respondents. The sample comes from different panels from market research institutes in Germany. SurveyEngine billed us around €5 for each survey participant counted as complete. The exact remuneration the respondents varied. Upon request, SurveyEngine informed us that these panel companies do not disclose the exact pay-out to the respondents, as it would partly reveal their internal cost structure. Furthermore, the actual pay-out made to respondents is dynamic, as are the internal costs, both of which are a function of factors determined by each panel. The method of payment also varies, as some panels pay respondents directly, while others offer vouchers or reward points that can be accumulated.
+The survey including the sampling is carried out online by the survey company SurveyEngine. The collaboration with SurveyEngine covered all development stages of the survey, including all focus groups and pilot studies. The sample is a probabilistic sample of the adult population in Germany with representative quotas for age and gender, and additional soft quotas for income and region. The main quotas are replicated within the split samples. We aim for a sample size of N = 15,000. SurveyEngine collaborated with panel companies to recruit the respondents. The sample comes from different panels from market research institutes in Germany. SurveyEngine billed us around €5 for each survey participant counted as complete. The exact remuneration the respondents varied. Upon request, SurveyEngine informed us that these panel companies do not disclose the exact pay-out to the respondents, as it would partly reveal their internal cost structure. Furthermore, the actual pay-out made to respondents is dynamic, as are the internal costs, both of which are a function of factors determined by each panel. The method of payment also varies, as some panels pay respondents directly, while others offer vouchers or reward points that can be accumulated.
 
  As the survey was financed by a research project, we tried to maximize the sample size for the given project budget which allowed us for a total sample of N = 15,000. For the choice experiment, we used simulations to test whether statistical design can deliver unbiased estimates. We used simple discrete choice conditional logit model with a specification assumed from earlier studies [@Sagebiel2017]. The results of the simulation are in the appendix and the code (in R) is available on github.
 
@@ -466,7 +480,8 @@ To provide more specific information on the choice experiment, we adapt a templa
     (see the \textbf{\hyperref[Hypotheses]{Hypotheses}} subsection for details)
 
 -   **\refstepcounter{que}\theque. What is the format of the survey instrument (eg.online, ftf, etc.)?** \newline
-    The survey is carried out online by the survey company SurveyEngine. The collaboration with SurveyEngine covered all development stages of the survey, including all pilot studies.
+
+ (see the \textbf{\hyperref[data-exp-setup]{Data and Experimental Setup}} subsection for details)
 
 -   **\refstepcounter{que}\theque. Motivate and describe your sampling approach. [Probabilistic sample, Convenience sample, stratified, clustered, quotas applied]** \newline
     (see the \textbf{\hyperref[data-exp-setup]{Data and Experimental Setup}} subsection for details)
